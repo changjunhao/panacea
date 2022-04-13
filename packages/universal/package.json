@@ -1,6 +1,7 @@
 {
   "name": "panacea-core",
   "version": "0.0.2-alpha.0",
+  "description": "JavaScript Universal Function Library",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "typings": "lib/index.d.js",
@@ -12,7 +13,19 @@
     "test": "jest",
     "lint-staged:js": "eslint --ext .js,.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/changjunhao/panacea.git"
+  },
+  "keywords": [
+    "utils",
+    "panacea"
+  ],
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/changjunhao/panacea/issues"
+  },
+  "homepage": "https://changjunhao.github.io/panacea/",
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/plugin-transform-runtime": "^7.17.0",

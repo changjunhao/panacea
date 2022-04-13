@@ -1,12 +1,20 @@
-# Panacea
+# panacea
 
-panacea（灵丹妙药）以希腊万能药女神 Panacea 的名字命名。
+A panacea named after the Greek goddess of universal remedy Panacea.
 
-希望本工具包可成为 JavaScript 的一个万能工具包，并且能够帮助大家解决各种各样的问题。
+Hopefully this toolkit can become a universal toolkit for JavaScript and can help you solve all kinds of problems.
 
 ```
 panacea
-├── panacea-core（universal 目录：通用 JavaScript 工具库）
-├── panacea-browser（browser 目录：只能在浏览器端运行的工具库）
-├── panacea-node（node 目录：只能在 nodejs 运行的工具库）
+├── panacea-core - JavaScript Universal Function Library
+├── panacea-browser - Function Library For Browser
+├── panacea-node - Function Library For Node.js
+```
+
+## Installation
+Using npm:
+```sh
+npm install --save panacea-core
+npm install --save panacea-browser
+npm install --save panacea-node
 ```
