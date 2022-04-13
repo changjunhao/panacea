@@ -1,0 +1,4 @@
+{
+  "**/*.{js,ts}": "npm run lint-staged:js",
+  "**/*.{js,ts,md,json}": ["prettier --write"]
+}

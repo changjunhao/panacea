@@ -1,0 +1,15 @@
+config/
+doc/
+src/
+temp/
+test/
+coverage/
+.idea
+.vscode
+.eslintignore
+.eslintrc.js
+babel.config.json
+rollup.config.js
+tsconfig.json
+.lintstagedrc.json
+jest.config.js

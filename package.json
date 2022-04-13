@@ -1,0 +1,30 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "npx lerna bootstrap",
+    "build": "lerna exec -- yarn build",
+    "build:api": "lerna exec -- yarn api",
+    "build:doc": "typedoc --entryPointStrategy packages .",
+    "test": "lerna exec -- yarn test",
+    "release": "yarn test && yarn build && yarn build:api && yarn build:doc && yarn publish",
+    "publish": "lerna publish --conventional-commits",
+    "prepare": "husky install",
+    "commit": "git add . && cz"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "commitizen": "^4.2.4",
+    "husky": "^7.0.0",
+    "lerna": "^4.0.0",
+    "lint-staged": "^12.3.7",
+    "typedoc": "^0.22.15"
+  }
+}
