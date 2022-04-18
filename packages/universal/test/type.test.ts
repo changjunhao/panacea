@@ -5,6 +5,7 @@ import isSymbol from "./type/isSymbol";
 import isPrimitive from "./type/isPrimitive";
 import isNumber from "./type/isNumber";
 import isBoolean from "./type/isBoolean";
+import cloneRegExp from "./type/cloneRegExp";
 
 describe("type:", () => {
   describe("isUndefined", isUndefined);
@@ -20,4 +21,6 @@ describe("type:", () => {
   describe("isNumber", isNumber);
 
   describe("isBoolean", isBoolean);
+
+  describe("cloneRegExp", cloneRegExp);
 });
