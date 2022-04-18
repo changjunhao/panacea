@@ -15,6 +15,7 @@ import coalesce from "./type/coalesce";
 import castArray from "./type/castArray";
 import isValidJSON from "./type/isValidJSON";
 import is from "./type/is";
+import getType from "./type/getType";
 
 describe("type:", () => {
   describe("isUndefined", isUndefined);
@@ -50,4 +51,6 @@ describe("type:", () => {
   describe("isValidJSON", isValidJSON);
 
   describe("is", is);
+
+  describe("getType", getType);
 });

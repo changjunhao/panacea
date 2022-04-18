@@ -22,5 +22,6 @@ module.exports = {
   plugins: ["@typescript-eslint", "prettier"],
   rules: {
     "no-self-compare": "off",
+    "no-nested-ternary": "off",
   },
 };
