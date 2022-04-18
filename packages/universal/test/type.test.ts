@@ -12,6 +12,7 @@ import isObject from "./type/isObject";
 import isFunction from "./type/isFunction";
 import cloneRegExp from "./type/cloneRegExp";
 import coalesce from "./type/coalesce";
+import castArray from "./type/castArray";
 
 describe("type:", () => {
   describe("isUndefined", isUndefined);
@@ -41,4 +42,6 @@ describe("type:", () => {
   describe("cloneRegExp", cloneRegExp);
 
   describe("coalesce", coalesce);
+
+  describe("castArray", castArray);
 });
