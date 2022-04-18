@@ -9,6 +9,7 @@ import isString from "./type/isString";
 import isPlainObject from "./type/isPlainObject";
 import isObjectLike from "./type/isObjectLike";
 import isObject from "./type/isObject";
+import isFunction from "./type/isFunction";
 import cloneRegExp from "./type/cloneRegExp";
 
 describe("type:", () => {
@@ -33,6 +34,8 @@ describe("type:", () => {
   describe("isObjectLike", isObjectLike);
 
   describe("isObject", isObject);
+
+  describe("isFunction", isFunction);
 
   describe("cloneRegExp", cloneRegExp);
 });

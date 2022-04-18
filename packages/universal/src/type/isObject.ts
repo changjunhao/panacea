@@ -5,7 +5,7 @@
  * @returns Returns true when the passed value is an object, false otherwise.
  * @example
  * ```typescript
- * sObject([1, 2, 3, 4]); // true
+ * isObject([1, 2, 3, 4]); // true
  * isObject([]); // true
  * isObject(['Hello!']); // true
  * isObject({ a: 1 }); // true
