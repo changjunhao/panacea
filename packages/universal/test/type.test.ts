@@ -14,6 +14,7 @@ import cloneRegExp from "./type/cloneRegExp";
 import coalesce from "./type/coalesce";
 import castArray from "./type/castArray";
 import isValidJSON from "./type/isValidJSON";
+import is from "./type/is";
 
 describe("type:", () => {
   describe("isUndefined", isUndefined);
@@ -47,4 +48,6 @@ describe("type:", () => {
   describe("castArray", castArray);
 
   describe("isValidJSON", isValidJSON);
+
+  describe("is", is);
 });
