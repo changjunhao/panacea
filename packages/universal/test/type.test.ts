@@ -13,6 +13,7 @@ import isFunction from "./type/isFunction";
 import cloneRegExp from "./type/cloneRegExp";
 import coalesce from "./type/coalesce";
 import castArray from "./type/castArray";
+import isValidJSON from "./type/isValidJSON";
 
 describe("type:", () => {
   describe("isUndefined", isUndefined);
@@ -44,4 +45,6 @@ describe("type:", () => {
   describe("coalesce", coalesce);
 
   describe("castArray", castArray);
+
+  describe("isValidJSON", isValidJSON);
 });
