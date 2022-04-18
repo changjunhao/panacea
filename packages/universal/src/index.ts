@@ -11,6 +11,7 @@ export { default as isObjectLike } from "./type/isObjectLike";
 export { default as isObject } from "./type/isObject";
 export { default as isFunction } from "./type/isFunction";
 export { default as cloneRegExp } from "./type/cloneRegExp";
+export { default as coalesce } from "./type/coalesce";
 
 export { default as padNumber } from "./string/padNumber";
 export { default as mask } from "./string/mask";

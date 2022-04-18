@@ -11,6 +11,7 @@ import isObjectLike from "./type/isObjectLike";
 import isObject from "./type/isObject";
 import isFunction from "./type/isFunction";
 import cloneRegExp from "./type/cloneRegExp";
+import coalesce from "./type/coalesce";
 
 describe("type:", () => {
   describe("isUndefined", isUndefined);
@@ -38,4 +39,6 @@ describe("type:", () => {
   describe("isFunction", isFunction);
 
   describe("cloneRegExp", cloneRegExp);
+
+  describe("coalesce", coalesce);
 });
