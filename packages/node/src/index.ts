@@ -1,2 +1,3 @@
-// eslint-disable-next-line import/prefer-default-export
+export { default as isStream } from "./type/isStream";
+
 export { default as untildify } from "./string/untildify";
