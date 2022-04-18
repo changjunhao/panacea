@@ -7,6 +7,7 @@ import isNumber from "./type/isNumber";
 import isBoolean from "./type/isBoolean";
 import isString from "./type/isString";
 import isPlainObject from "./type/isPlainObject";
+import isObjectLike from "./type/isObjectLike";
 import cloneRegExp from "./type/cloneRegExp";
 
 describe("type:", () => {
@@ -27,6 +28,8 @@ describe("type:", () => {
   describe("isString", isString);
 
   describe("isPlainObject", isPlainObject);
+
+  describe("isObjectLike", isObjectLike);
 
   describe("cloneRegExp", cloneRegExp);
 });

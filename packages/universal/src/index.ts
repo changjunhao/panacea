@@ -7,6 +7,7 @@ export { default as isNumber } from "./type/isNumber";
 export { default as isBoolean } from "./type/isBoolean";
 export { default as isString } from "./type/isString";
 export { default as isPlainObject } from "./type/isPlainObject";
+export { default as isObjectLike } from "./type/isObjectLike";
 export { default as cloneRegExp } from "./type/cloneRegExp";
 
 export { default as padNumber } from "./string/padNumber";
