@@ -1,6 +1,6 @@
 {
   "name": "panacea-browser",
-  "version": "0.0.3-alpha.0",
+  "version": "0.1.0-alpha.0",
   "description": "Function Library For Browser",
   "main": "lib/index.js",
   "module": "esm/index.js",
