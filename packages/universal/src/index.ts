@@ -10,6 +10,7 @@ export { default as isPlainObject } from "./type/isPlainObject";
 export { default as isObjectLike } from "./type/isObjectLike";
 export { default as isObject } from "./type/isObject";
 export { default as isFunction } from "./type/isFunction";
+export { default as isArrayLike } from "./type/isArrayLike";
 export { default as cloneRegExp } from "./type/cloneRegExp";
 export { default as coalesce } from "./type/coalesce";
 export { default as castArray } from "./type/castArray";

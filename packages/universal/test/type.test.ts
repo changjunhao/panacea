@@ -10,6 +10,7 @@ import isPlainObject from "./type/isPlainObject";
 import isObjectLike from "./type/isObjectLike";
 import isObject from "./type/isObject";
 import isFunction from "./type/isFunction";
+import isArrayLike from "./type/isArrayLike";
 import cloneRegExp from "./type/cloneRegExp";
 import coalesce from "./type/coalesce";
 import castArray from "./type/castArray";
@@ -41,6 +42,8 @@ describe("type:", () => {
   describe("isObject", isObject);
 
   describe("isFunction", isFunction);
+
+  describe("isArrayLike", isArrayLike);
 
   describe("cloneRegExp", cloneRegExp);
 
