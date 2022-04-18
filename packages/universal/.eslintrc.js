@@ -20,5 +20,7 @@ module.exports = {
     "lib/*",
   ],
   plugins: ["@typescript-eslint", "prettier"],
-  rules: {},
+  rules: {
+    "no-self-compare": "off",
+  },
 };
