@@ -10,6 +10,7 @@
  * castArray(null); // [null]
  * castArray(undefined); // [undefined]
  * ```
+ * @since 0.1.0
  * @public
  */
 const castArray: (value: any) => any[] = (value) =>

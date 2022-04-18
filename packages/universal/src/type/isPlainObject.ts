@@ -8,6 +8,7 @@
  * isPlainObject({ a: 1 }); // true
  * isPlainObject(new Map()); // false
  * ```
+ * @since 0.1.0
  * @public
  */
 const isPlainObject: (value: any) => boolean = (value) =>

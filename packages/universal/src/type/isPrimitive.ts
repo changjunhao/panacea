@@ -12,6 +12,7 @@
  * isPrimitive([]); // => false
  * isPrimitive({}); // => false
  * ```
+ * @since 0.1.0
  * @public
  */
 const isPrimitive: (value: any) => boolean = (value) => Object(value) !== value;

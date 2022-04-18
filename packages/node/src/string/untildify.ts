@@ -14,7 +14,7 @@
  * const path = untildify('~/foo/bar');
  * console.log(path); // /home/username/foo/bar
  * ```
- *
+ * @since 0.1.0
  * @public
  */
 const untildify: (path: string) => string = (path) =>

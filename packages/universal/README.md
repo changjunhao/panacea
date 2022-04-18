@@ -1,4 +1,4 @@
-# panacea-browser
+# panacea-core
 
 JavaScript Universal Function Library
 

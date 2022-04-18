@@ -12,6 +12,7 @@
  * isObject({}); // true
  * isObject(true); // false
  * ```
+ * @since 0.1.0
  * @public
  */
 const isObject: (value: any) => boolean = (value) => value === Object(value);

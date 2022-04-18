@@ -8,6 +8,7 @@
  * isValidJSON('{"foo": "bar"}'); // true
  * isValidJSON('{"foo": "bar"'); // false
  * ```
+ * @since 0.1.0
  * @public
  */
 const isValidJSON = (json: any): boolean => {

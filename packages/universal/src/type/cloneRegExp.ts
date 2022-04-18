@@ -8,6 +8,7 @@
  * const regExp = /lorem ipsum/gi;
  * const regExp2 = cloneRegExp(regExp); // regExp !== regExp2
  * ```
+ * @since 0.1.0
  * @public
  */
 const cloneRegExp: (regExp: RegExp) => RegExp = (regExp) =>

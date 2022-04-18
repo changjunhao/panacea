@@ -11,7 +11,7 @@
  * isSymbol(Symbol('x')) // => true
  * isSymbol(1) // => false
  * ```
- *
+ * @since 0.1.0
  * @public
  */
 const isSymbol: (value: any) => boolean = (value) => typeof value === "symbol";

@@ -10,6 +10,7 @@
  * isObjectLike(x => x); // false
  * isObjectLike(null); // false
  * ```
+ * @since 0.1.0
  * @public
  */
 const isObjectLike: (value: any) => boolean = (value) =>

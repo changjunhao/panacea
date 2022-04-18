@@ -4,6 +4,10 @@
     {
       "tagName": "@category",
       "syntaxKind": "modifier"
+    },
+    {
+      "tagName": "@since",
+      "syntaxKind": "modifier"
     }
   ]
 }

@@ -11,7 +11,7 @@
  * isUndefined(undefined) // true
  * isUndefined(null) // false
  * ```
- *
+ * @since 0.1.0
  * @public
  */
 const isUndefined: (value: any) => boolean = (value) => value === undefined;

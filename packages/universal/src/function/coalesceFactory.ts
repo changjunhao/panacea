@@ -10,6 +10,7 @@
  * customCoalesce(undefined, null, NaN, '', 'Waldo'); // 'Waldo'
  * ```
  * @category Function
+ * @since 0.1.0
  * @public
  */
 const coalesceFactory: (

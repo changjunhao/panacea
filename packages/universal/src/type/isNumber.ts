@@ -10,6 +10,7 @@
  * isNumber(NaN); // false
  * isNumber(Infinity); // false
  * ```
+ * @since 0.1.0
  * @public
  */
 const isNumber: (value: any) => boolean = (value) =>

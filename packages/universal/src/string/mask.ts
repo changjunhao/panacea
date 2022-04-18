@@ -12,6 +12,7 @@
  * ```typescript
  * mask('123456789', '*', 3) // '******789'
  * ```
+ * @since 0.1.0
  * @public
  */
 const mask: (cc: number, num?: number, mask?: string) => string = (

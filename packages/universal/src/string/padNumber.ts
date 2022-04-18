@@ -12,7 +12,7 @@
  * padNumber(1, 3) // returns '001'
  * padNumber(1234, 6) // '001234'
  * ```
- *
+ * @since 0.1.0
  * @public
  */
 const padNumber: (n: number, l: number) => string = (n, l) =>

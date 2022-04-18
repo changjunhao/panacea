@@ -8,6 +8,7 @@
  * isFunction('x') // false
  * isFunction(x => x) // true
  * ```
+ * @since 0.1.0
  * @public
  */
 const isFunction: (value: any) => boolean = (value) =>

@@ -11,7 +11,7 @@
  * isNull(null) // true
  * isNull(undefined) // false
  * ```
- *
+ * @since 0.1.0
  * @public
  */
 

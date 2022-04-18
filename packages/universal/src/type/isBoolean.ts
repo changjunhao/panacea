@@ -8,6 +8,7 @@
  * isBoolean(null); // false
  * isBoolean(false); // true
  * ```
+ * @since 0.1.0
  * @public
  */
 const isBoolean: (value: any) => boolean = (value) =>

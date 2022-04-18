@@ -24,6 +24,7 @@
  * is<Function>(Function, () => {}); // true
  * is<Function>(Function, new Function()); // true
  * ```
+ * @since 0.1.0
  * @public
  */
 function is<T>(type: new (...args: any[]) => T, val: any): boolean {

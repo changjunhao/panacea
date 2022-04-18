@@ -12,7 +12,7 @@
  * isNil(undefined); // => true
  * isNil(0); // => false
  * ```
- *
+ * @since 0.1.0
  * @public
  */
 const isNil: (value: any) => boolean = (value) =>

@@ -8,6 +8,7 @@
  * ```typescript
  * coalesce(null, undefined, '', NaN, 'Waldo'); // ''
  * ```
+ * @since 0.1.0
  * @public
  */
 const coalesce: (...args: any[]) => any = (...args) =>

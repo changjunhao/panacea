@@ -7,6 +7,7 @@
  * ```typescript
  * isString('10'); // true
  * ```
+ * @since 0.1.0
  * @public
  */
 const isString: (value: any) => boolean = (value) => typeof value === "string";

@@ -15,7 +15,7 @@
  * ```typescript
  *  byteSize('你好') // 6
  * ```
- *
+ * @since 0.1.0
  * @public
  */
 const byteSize: (str: string) => number = (str) => new Blob([str]).size;
