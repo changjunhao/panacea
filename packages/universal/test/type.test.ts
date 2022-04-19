@@ -18,6 +18,7 @@ import isValidJSON from "./type/isValidJSON";
 import is from "./type/is";
 import getType from "./type/getType";
 import isGeneratorFunction from "./type/isGeneratorFunction";
+import isAsyncFunction from "./type/isAsyncFunction";
 
 describe("type:", () => {
   describe("isUndefined", isUndefined);
@@ -59,4 +60,6 @@ describe("type:", () => {
   describe("getType", getType);
 
   describe("isGeneratorFunction:", isGeneratorFunction);
+
+  describe("isAsyncFunction:", isAsyncFunction);
 });
