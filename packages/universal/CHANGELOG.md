@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-alpha.2](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.0-alpha.1...panacea-core@0.1.0-alpha.2) (2022-04-19)
+
+### Features
+
+- **universal:** add getType ([aa43dff](https://github.com/changjunhao/panacea/commit/aa43dffd7257ef544d4779ab5842e0b38031dc49))
+- **universal:** add isArrayLike ([188a6b9](https://github.com/changjunhao/panacea/commit/188a6b9c8dde0a7e019c3e8384adb01806fa2bd2))
+- **universal:** add isAsyncFunction ([28dcdca](https://github.com/changjunhao/panacea/commit/28dcdcaf13683b160ffdf71572768eb5cd55a7b7))
+- **universal:** add isGeneratorFunction ([c3d71b4](https://github.com/changjunhao/panacea/commit/c3d71b4fb6f180da0bd43fb5d2e5ba7f01453728))
+- **universal:** add isPromiseLike ([cba2696](https://github.com/changjunhao/panacea/commit/cba2696d31fde20eb05e827dfd48e8903aa7cc32))
+
 # [0.1.0-alpha.1](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.0-alpha.0...panacea-core@0.1.0-alpha.1) (2022-04-18)
 
 ### Features
