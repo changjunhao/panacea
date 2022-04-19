@@ -17,6 +17,7 @@ export { default as castArray } from "./type/castArray";
 export { default as isValidJSON } from "./type/isValidJSON";
 export { default as is } from "./type/is";
 export { default as getType } from "./type/getType";
+export { default as isGeneratorFunction } from "./type/isGeneratorFunction";
 
 export { default as padNumber } from "./string/padNumber";
 export { default as mask } from "./string/mask";

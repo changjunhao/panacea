@@ -17,6 +17,7 @@ import castArray from "./type/castArray";
 import isValidJSON from "./type/isValidJSON";
 import is from "./type/is";
 import getType from "./type/getType";
+import isGeneratorFunction from "./type/isGeneratorFunction";
 
 describe("type:", () => {
   describe("isUndefined", isUndefined);
@@ -56,4 +57,6 @@ describe("type:", () => {
   describe("is", is);
 
   describe("getType", getType);
+
+  describe("isGeneratorFunction:", isGeneratorFunction);
 });
