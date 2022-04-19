@@ -1,9 +1,8 @@
-import { isBrowserTabFocused } from "../src";
+import elementIsFocused from "./dom/elementIsFocused";
+import isBrowserTabFocused from "./dom/isBrowserTabFocused";
 
 describe("string:", () => {
-  describe("isBrowserTabFocused:", () => {
-    it("should return true if the browser tab is focused", () => {
-      expect(isBrowserTabFocused()).toBe(true);
-    });
-  });
+  describe("isBrowserTabFocused:", isBrowserTabFocused);
+
+  describe("elementIsFocused:", elementIsFocused);
 });
