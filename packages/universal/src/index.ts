@@ -20,6 +20,7 @@ export { default as getType } from "./type/getType";
 export { default as isGeneratorFunction } from "./type/isGeneratorFunction";
 export { default as isAsyncFunction } from "./type/isAsyncFunction";
 export { default as isPromiseLike } from "./type/isPromiseLike";
+export { default as isEmpty } from "./type/isEmpty";
 
 export { default as padNumber } from "./string/padNumber";
 export { default as mask } from "./string/mask";

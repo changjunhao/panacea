@@ -20,6 +20,7 @@ import getType from "./type/getType";
 import isGeneratorFunction from "./type/isGeneratorFunction";
 import isAsyncFunction from "./type/isAsyncFunction";
 import isPromiseLike from "./type/isPromiseLike";
+import isEmpty from "./type/isEmpty";
 
 describe("type:", () => {
   describe("isUndefined", isUndefined);
@@ -65,4 +66,6 @@ describe("type:", () => {
   describe("isAsyncFunction:", isAsyncFunction);
 
   describe("isPromiseLike:", isPromiseLike);
+
+  describe("isEmpty:", isEmpty);
 });
