@@ -16,6 +16,7 @@ module.exports = {
     "tsconfig.json",
     "node_modules",
     "test/",
+    "jest.setup.js",
   ],
   plugins: ["@typescript-eslint", "prettier"],
   rules: {},
