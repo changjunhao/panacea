@@ -26,3 +26,5 @@ export { default as padNumber } from "./string/padNumber";
 export { default as mask } from "./string/mask";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
+
+export { default as equals } from "./object/equals";
