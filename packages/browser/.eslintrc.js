@@ -19,5 +19,7 @@ module.exports = {
     "jest.setup.js",
   ],
   plugins: ["@typescript-eslint", "prettier"],
-  rules: {},
+  rules: {
+    "no-bitwise": "off",
+  },
 };
