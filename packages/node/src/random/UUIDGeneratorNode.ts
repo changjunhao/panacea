@@ -10,7 +10,7 @@ import crypto from "crypto";
  * @since 0.1.0
  * @public
  */
-const UUIDGeneratorNode = () =>
+const UUIDGeneratorNode = (): string =>
   // @ts-ignore
   ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
     // eslint-disable-next-line no-bitwise

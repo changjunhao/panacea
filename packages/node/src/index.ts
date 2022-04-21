@@ -6,3 +6,5 @@ export { default as isDuplexStream } from "./type/isDuplexStream";
 export { default as untildify } from "./string/untildify";
 
 export { default as UUIDGeneratorNode } from "./random/UUIDGeneratorNode";
+
+export { default as requireUncached } from "./module/requireUncached";
