@@ -27,6 +27,8 @@ export { default as mask } from "./string/mask";
 export { default as isUpperCase } from "./string/isUpperCase";
 export { default as isLowerCase } from "./string/isLowerCase";
 export { default as truncateString } from "./string/truncateString";
+export { default as colorize } from "./string/colorize";
+export type { ColorizeRecord } from "./string/colorize";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 
