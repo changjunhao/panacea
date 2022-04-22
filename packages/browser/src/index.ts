@@ -7,6 +7,7 @@ export { default as bottomVisible } from "./dom/bottomVisible";
 export { default as fullscreen } from "./dom/fullscreen";
 export { default as elementIsVisibleInViewport } from "./dom/elementIsVisibleInViewport";
 export { default as elementContains } from "./dom/elementContains";
+export { default as removeElement } from "./dom/removeElement";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";
