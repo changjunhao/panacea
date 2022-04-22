@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-alpha.3](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.0-alpha.2...panacea-core@0.1.0-alpha.3) (2022-04-22)
+
+### Features
+
+- **universal:** add equals ([f3f7da8](https://github.com/changjunhao/panacea/commit/f3f7da88c4ab52f5a9d875f561c82ecb5929a8dd))
+- **universal:** add isEmpty ([7279932](https://github.com/changjunhao/panacea/commit/7279932f20858d12a0fd0fc43f81ca680c810fa2))
+- **universal:** add isLowerCase ([01d6e0a](https://github.com/changjunhao/panacea/commit/01d6e0ab9b9c4ca6f043f6484e5dd37b97ae7b5b))
+- **universal:** add isUpperCase ([425795f](https://github.com/changjunhao/panacea/commit/425795f93819e196fda041088b1c16aee23ccba4))
+- **universal:** add truncateString ([0f5745f](https://github.com/changjunhao/panacea/commit/0f5745f9595df2de027e2f3b2e8c9b1895418758))
+
 # [0.1.0-alpha.2](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.0-alpha.1...panacea-core@0.1.0-alpha.2) (2022-04-19)
 
 ### Features
