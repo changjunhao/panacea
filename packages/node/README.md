@@ -12,8 +12,17 @@ npm install --save panacea-node
 
 In Node.js:
 
+Using `require` in .js files:
+
 ```js
 const { untildify } = require("panacea-node");
+untildify("~/foo/bar");
+```
+
+Using `import` in .mjs files:
+
+```js
+import { untildify } from "panacea-node";
 untildify("~/foo/bar");
 ```
 
