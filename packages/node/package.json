@@ -4,7 +4,7 @@
   "description": "Function Library For Node.js",
   "main": "lib/index.js",
   "module": "esm/index.mjs",
-  "typings": "lib/index.d.js",
+  "typings": "lib/index.d.ts",
   "typedocMain": "src/index.ts",
   "sideEffects": "false",
   "scripts": {

@@ -4,7 +4,7 @@
   "description": "JavaScript Universal Function Library",
   "main": "lib/index.js",
   "module": "esm/index.js",
-  "typings": "lib/index.d.js",
+  "typings": "lib/index.d.ts",
   "typedocMain": "src/index.ts",
   "sideEffects": "false",
   "scripts": {
