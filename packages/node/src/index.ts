@@ -13,5 +13,6 @@ export { default as requireUncached } from "./module/requireUncached";
 
 export { default as createDirIfNotExists } from "./fs/createDirIfNotExists";
 export { default as readFileLines } from "./fs/readFileLines";
+export { default as JSONToFile } from "./fs/JSONToFile";
 
 export { default as hasFlags } from "./process/hasFlags";

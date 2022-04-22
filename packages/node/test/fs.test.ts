@@ -1,4 +1,4 @@
-import { createDirIfNotExists, readFileLines } from "../src";
+import { createDirIfNotExists, readFileLines, JSONToFile } from "../src";
 import * as fs from "fs";
 
 describe("fs:", function () {
@@ -23,6 +23,20 @@ describe("fs:", function () {
       const lines = readFileLines(file);
       expect(lines).toEqual(["line 1", "line 2", "line 3"]);
       fs.rmSync(file);
+    });
+  });
+
+  describe("JSONToFile:", function () {
+    it("should write a JSON object to a file", function () {
+      const file = "./test/test-file";
+      JSONToFile(
+        {
+          test: "test",
+        },
+        file
+      );
+      expect(fs.existsSync(`${file}.json`)).toBe(true);
+      fs.rmSync(`${file}.json`);
     });
   });
 });
