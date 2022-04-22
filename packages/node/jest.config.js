@@ -49,6 +49,9 @@ module.exports = {
       lines: 100,
       statements: 100,
     },
+    "src/process/hasFlags": {
+      branches: 50,
+    },
   },
 
   // A path to a custom dependency extractor
