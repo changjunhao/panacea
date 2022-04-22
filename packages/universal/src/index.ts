@@ -31,3 +31,5 @@ export { default as truncateString } from "./string/truncateString";
 export { default as coalesceFactory } from "./function/coalesceFactory";
 
 export { default as equals } from "./object/equals";
+
+export { default as isNode } from "./environment/isNode";
