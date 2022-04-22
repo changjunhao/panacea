@@ -11,7 +11,6 @@
  * @category String
  * @public
  */
-const atob = (string: string) =>
-  Buffer.from(string, "base64").toString("binary");
+const atob = (string: string) => Buffer.from(string, "base64").toString("utf8");
 
 export default atob;
