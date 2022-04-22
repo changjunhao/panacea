@@ -24,6 +24,7 @@ export { default as isEmpty } from "./type/isEmpty";
 
 export { default as padNumber } from "./string/padNumber";
 export { default as mask } from "./string/mask";
+export { default as isUpperCase } from "./string/isUpperCase";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 
