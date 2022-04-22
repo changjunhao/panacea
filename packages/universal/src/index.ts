@@ -35,3 +35,4 @@ export { default as coalesceFactory } from "./function/coalesceFactory";
 export { default as equals } from "./object/equals";
 
 export { default as isNode } from "./environment/isNode";
+export { default as isBrowser } from "./environment/isBrowser";
