@@ -15,8 +15,6 @@ esm/
 
 temp/
 
-test/test-dir
-
 coverage
 
 .DS_Store
