@@ -4,6 +4,7 @@ export { default as isWritableStream } from "./type/isWritableStream";
 export { default as isDuplexStream } from "./type/isDuplexStream";
 
 export { default as untildify } from "./string/untildify";
+export { default as atob } from "./string/atob";
 
 export { default as UUIDGeneratorNode } from "./random/UUIDGeneratorNode";
 
