@@ -7,6 +7,7 @@ import insertBefore from "./dom/insertBefore";
 import insertAfter from "./dom/insertAfter";
 import createElement from "./dom/createElement";
 import setStyle from "./dom/setStyle";
+import findClosestMatchingNode from "./dom/findClosestMatchingNode";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -26,4 +27,6 @@ describe("string:", () => {
   describe("createElement:", createElement);
 
   describe("setStyle:", setStyle);
+
+  describe("findClosestMatchingNode:", findClosestMatchingNode);
 });

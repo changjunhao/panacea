@@ -13,6 +13,7 @@ export { default as insertAfter } from "./dom/insertAfter";
 export { default as createElement } from "./dom/createElement";
 export { default as setStyle } from "./dom/setStyle";
 export { default as getVerticalOffset } from "./dom/getVerticalOffset";
+export { default as findClosestMatchingNode } from "./dom/findClosestMatchingNode";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";
