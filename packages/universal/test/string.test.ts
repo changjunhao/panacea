@@ -4,6 +4,7 @@ import isUpperCase from "./string/isUpperCase";
 import isLowerCase from "./string/isLowerCase";
 import truncateString from "./string/truncateString";
 import colorize from "./string/colorize";
+import serializeCookie from "./string/serializeCookie";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -17,4 +18,6 @@ describe("string:", () => {
   describe("truncateString", truncateString);
 
   describe("colorize:", colorize);
+
+  describe("serializeCookie", serializeCookie);
 });
