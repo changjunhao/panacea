@@ -3,6 +3,7 @@ import isBrowserTabFocused from "./dom/isBrowserTabFocused";
 import bottomVisible from "./dom/bottomVisible";
 import elementContains from "./dom/elementContains";
 import removeElement from "./dom/removeElement";
+import insertBefore from "./dom/insertBefore";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -14,4 +15,6 @@ describe("string:", () => {
   describe("elementContains:", elementContains);
 
   describe("removeElement:", removeElement);
+
+  describe("insertBefore", insertBefore);
 });
