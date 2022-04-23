@@ -8,6 +8,7 @@ import insertAfter from "./dom/insertAfter";
 import createElement from "./dom/createElement";
 import setStyle from "./dom/setStyle";
 import findClosestMatchingNode from "./dom/findClosestMatchingNode";
+import toggleClass from "./dom/toggleClass";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -29,4 +30,6 @@ describe("string:", () => {
   describe("setStyle:", setStyle);
 
   describe("findClosestMatchingNode:", findClosestMatchingNode);
+
+  describe("toggleClass:", toggleClass);
 });
