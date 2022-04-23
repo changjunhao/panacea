@@ -11,6 +11,7 @@ export { default as removeElement } from "./dom/removeElement";
 export { default as insertBefore } from "./dom/insertBefore";
 export { default as insertAfter } from "./dom/insertAfter";
 export { default as createElement } from "./dom/createElement";
+export { default as setStyle } from "./dom/setStyle";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";

@@ -6,6 +6,7 @@ import removeElement from "./dom/removeElement";
 import insertBefore from "./dom/insertBefore";
 import insertAfter from "./dom/insertAfter";
 import createElement from "./dom/createElement";
+import setStyle from "./dom/setStyle";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -23,4 +24,6 @@ describe("string:", () => {
   describe("insertAfter:", insertAfter);
 
   describe("createElement:", createElement);
+
+  describe("setStyle:", setStyle);
 });
