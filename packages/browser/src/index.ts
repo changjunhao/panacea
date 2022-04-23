@@ -17,6 +17,7 @@ export { default as isLocalStorageEnabled } from "./bom/isLocalStorageEnabled";
 export { default as getProtocol } from "./bom/getProtocol";
 export { default as prefersLightColorScheme } from "./bom/prefersLightColorScheme";
 export { default as prefersDarkColorScheme } from "./bom/prefersDarkColorScheme";
+export { default as detectDeviceType } from "./bom/detectDeviceType";
 
 export { default as hashBrowser } from "./crypto/hashBrowser";
 
