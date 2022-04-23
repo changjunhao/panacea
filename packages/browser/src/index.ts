@@ -13,6 +13,7 @@ export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";
 export { default as isLocalStorageEnabled } from "./bom/isLocalStorageEnabled";
 export { default as getProtocol } from "./bom/getProtocol";
+export { default as prefersLightColorScheme } from "./bom/prefersLightColorScheme";
 
 export { default as hashBrowser } from "./crypto/hashBrowser";
 
