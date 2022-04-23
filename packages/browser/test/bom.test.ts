@@ -3,6 +3,7 @@ import isSessionStorageEnabled from "./bom/isSessionStorageEnabled";
 import isLocalStorageEnabled from "./bom/isLocalStorageEnabled";
 import getProtocol from "./bom/getProtocol";
 import prefersLightColorScheme from "./bom/prefersLightColorScheme";
+import prefersDarkColorScheme from "./bom/prefersDarkColorScheme";
 
 describe("BOM:", function () {
   describe("supportsTouchEvents:", supportsTouchEvents);
@@ -14,4 +15,6 @@ describe("BOM:", function () {
   describe("getProtocol:", getProtocol);
 
   describe("prefersLightColorScheme:", prefersLightColorScheme);
+
+  describe("prefersDarkColorScheme:", prefersDarkColorScheme);
 });
