@@ -22,6 +22,7 @@ export { default as prefersDarkColorScheme } from "./bom/prefersDarkColorScheme"
 export { default as detectDeviceType } from "./bom/detectDeviceType";
 export { default as getSelectedText } from "./bom/getSelectedText";
 export { default as currentURL } from "./bom/currentURL";
+export { default as redirect } from "./bom/redirect";
 
 export { default as hashBrowser } from "./crypto/hashBrowser";
 

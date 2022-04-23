@@ -7,6 +7,7 @@ import prefersDarkColorScheme from "./bom/prefersDarkColorScheme";
 import detectDeviceType from "./bom/detectDeviceType";
 import getSelectedText from "./bom/getSelectedText";
 import currentURL from "./bom/currentURL";
+import redirect from "./bom/redirect";
 
 describe("BOM:", function () {
   describe("supportsTouchEvents:", supportsTouchEvents);
@@ -26,4 +27,6 @@ describe("BOM:", function () {
   describe("getSelectedText:", getSelectedText);
 
   describe("currentURL:", currentURL);
+
+  describe("redirect:", redirect);
 });
