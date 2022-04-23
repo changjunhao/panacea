@@ -5,6 +5,7 @@ import getProtocol from "./bom/getProtocol";
 import prefersLightColorScheme from "./bom/prefersLightColorScheme";
 import prefersDarkColorScheme from "./bom/prefersDarkColorScheme";
 import detectDeviceType from "./bom/detectDeviceType";
+import getSelectedText from "./bom/getSelectedText";
 
 describe("BOM:", function () {
   describe("supportsTouchEvents:", supportsTouchEvents);
@@ -20,4 +21,6 @@ describe("BOM:", function () {
   describe("prefersDarkColorScheme:", prefersDarkColorScheme);
 
   describe("detectDeviceType:", detectDeviceType);
+
+  describe("getSelectedText:", getSelectedText);
 });
