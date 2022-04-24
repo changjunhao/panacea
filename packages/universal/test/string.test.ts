@@ -12,6 +12,7 @@ import formatNumber from "./string/formatNumber";
 import pad from "./string/pad";
 import containsWhitespace from "./string/containsWhitespace";
 import isAlpha from "./string/isAlpha";
+import stripHTMLTags from "./string/stripHTMLTags";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -41,4 +42,6 @@ describe("string:", () => {
   describe("containsWhitespace", containsWhitespace);
 
   describe("isAlpha", isAlpha);
+
+  describe("stripHTMLTags", stripHTMLTags);
 });
