@@ -30,6 +30,7 @@ export { default as truncateString } from "./string/truncateString";
 export { default as colorize } from "./string/colorize";
 export type { ColorizeRecord } from "./string/colorize";
 export { default as serializeCookie } from "./string/serializeCookie";
+export { default as indentString } from "./string/indentString";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 
