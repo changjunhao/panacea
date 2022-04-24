@@ -50,3 +50,5 @@ export { default as equals } from "./object/equals";
 
 export { default as isNode } from "./environment/isNode";
 export { default as isBrowser } from "./environment/isBrowser";
+
+export { default as isBetweenDates } from "./date/isBetweenDates";
