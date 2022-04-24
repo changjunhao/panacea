@@ -36,6 +36,7 @@ export { default as fromCamelCase } from "./string/fromCamelCase";
 export { default as formatNumber } from "./string/formatNumber";
 export { default as pad } from "./string/pad";
 export { default as containsWhitespace } from "./string/containsWhitespace";
+export { default as isAlpha } from "./string/isAlpha";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 

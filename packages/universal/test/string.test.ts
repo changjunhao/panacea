@@ -11,6 +11,7 @@ import fromCamelCase from "./string/fromCamelCase";
 import formatNumber from "./string/formatNumber";
 import pad from "./string/pad";
 import containsWhitespace from "./string/containsWhitespace";
+import isAlpha from "./string/isAlpha";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -38,4 +39,6 @@ describe("string:", () => {
   describe("pad", pad);
 
   describe("containsWhitespace", containsWhitespace);
+
+  describe("isAlpha", isAlpha);
 });
