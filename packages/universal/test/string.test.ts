@@ -7,6 +7,7 @@ import colorize from "./string/colorize";
 import serializeCookie from "./string/serializeCookie";
 import indentString from "./string/indentString";
 import fromCamelCase from "./string/fromCamelCase";
+import formatNumber from "./string/formatNumber";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -26,4 +27,6 @@ describe("string:", () => {
   describe("indentString", indentString);
 
   describe("fromCamelCase", fromCamelCase);
+
+  describe("formatNumber", formatNumber);
 });
