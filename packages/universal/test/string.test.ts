@@ -3,6 +3,7 @@ import padNumber from "./string/padNumber";
 import isUpperCase from "./string/isUpperCase";
 import isLowerCase from "./string/isLowerCase";
 import truncateString from "./string/truncateString";
+import truncateStringAtWhitespace from "./string/truncateStringAtWhitespace";
 import colorize from "./string/colorize";
 import serializeCookie from "./string/serializeCookie";
 import indentString from "./string/indentString";
@@ -29,4 +30,6 @@ describe("string:", () => {
   describe("fromCamelCase", fromCamelCase);
 
   describe("formatNumber", formatNumber);
+
+  describe("truncateStringAtWhitespace", truncateStringAtWhitespace);
 });
