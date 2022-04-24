@@ -16,7 +16,7 @@
     "publicTrimmedFilePath": "<projectFolder>/esm/<unscopedPackageName>.d.ts"
   },
   "tsdocMetadata": {
-    "enabled": true
+    "enabled": false
   },
   "messages": {
     "compilerMessageReporting": {

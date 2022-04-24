@@ -20,7 +20,6 @@ const caesarCipher = (
 ): string => {
   const s = decrypt ? (26 - shift) % 26 : shift;
   const n = s > 0 ? s : 26 + (s % 26);
-  // @ts-ignore
   return [...str]
     .map((l, i) => {
       const c = str.charCodeAt(i);
