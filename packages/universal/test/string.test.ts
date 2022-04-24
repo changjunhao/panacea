@@ -15,6 +15,7 @@ import isAlpha from "./string/isAlpha";
 import stripHTMLTags from "./string/stripHTMLTags";
 import normalizeLineEndings from "./string/normalizeLineEndings";
 import isAlphaNumeric from "./string/isAlphaNumeric";
+import isAbsoluteURL from "./string/isAbsoluteURL";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -50,4 +51,6 @@ describe("string:", () => {
   describe("stripHTMLTags", stripHTMLTags);
 
   describe("normalizeLineEndings", normalizeLineEndings);
+
+  describe("isAbsoluteURL", isAbsoluteURL);
 });

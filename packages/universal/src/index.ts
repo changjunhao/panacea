@@ -40,6 +40,7 @@ export { default as isAlpha } from "./string/isAlpha";
 export { default as isAlphaNumeric } from "./string/isAlphaNumeric";
 export { default as stripHTMLTags } from "./string/stripHTMLTags";
 export { default as normalizeLineEndings } from "./string/normalizeLineEndings";
+export { default as isAbsoluteURL } from "./string/isAbsoluteURL";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 
