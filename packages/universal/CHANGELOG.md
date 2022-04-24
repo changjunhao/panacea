@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.0...panacea-core@0.1.1) (2022-04-24)
+
+### Features
+
+- **universal:** add caesarCipher ([377eb18](https://github.com/changjunhao/panacea/commit/377eb1861435be8189ed92a6e3c55f06cb6b412c))
+- **universal:** add containsWhitespace ([3922be8](https://github.com/changjunhao/panacea/commit/3922be8f4bf1fa90c9bb74485fa9fd5610bb6c62))
+- **universal:** add escapeRegExp ([87c6735](https://github.com/changjunhao/panacea/commit/87c6735236e3949ec15c27720b250e65c76d98d7))
+- **universal:** add expandTabs ([9887bc8](https://github.com/changjunhao/panacea/commit/9887bc8e05ea866d31fe2b1eb8f18f64f92d02f2))
+- **universal:** add formatNumber ([f8678ab](https://github.com/changjunhao/panacea/commit/f8678aba5beff0d4344a07c5cbd69a48ee7e1a43))
+- **universal:** add fromCamelCase ([3c96d54](https://github.com/changjunhao/panacea/commit/3c96d54c9f75f1e20e18af5dad0f9e7729381580))
+- **universal:** add indentString ([aaf7a48](https://github.com/changjunhao/panacea/commit/aaf7a48f7b9958d468c30086696f74b3bc9788de))
+- **universal:** add isAbsoluteURL ([27b823b](https://github.com/changjunhao/panacea/commit/27b823bddef68e280042d96d6c29841f482de88f))
+- **universal:** add isAlpha ([032dfcb](https://github.com/changjunhao/panacea/commit/032dfcb44eab269dfde39fa540338f77a487a599))
+- **universal:** add isAlphaNumeric ([8348003](https://github.com/changjunhao/panacea/commit/8348003cc26c6747c4f4d0ca95ff58e1e4a185df))
+- **universal:** add isBetweenDates ([667a43d](https://github.com/changjunhao/panacea/commit/667a43d47e824bcb521b56615af799c0ca6763f4))
+- **universal:** add normalizeLineEndings ([167318d](https://github.com/changjunhao/panacea/commit/167318d01cf85cc0d88de892c06fc7d4b92c011b))
+- **universal:** add pad ([5d8affc](https://github.com/changjunhao/panacea/commit/5d8affc7413cf58d835b369a94a68f5e774006d8))
+- **universal:** add serializeCookie ([1b8c3b2](https://github.com/changjunhao/panacea/commit/1b8c3b201628203934bca18700ed62889ccfc1f4))
+- **universal:** add stripHTMLTags ([4816e6d](https://github.com/changjunhao/panacea/commit/4816e6dce2a156cf86e0aaac230bf01a7c23c7c9))
+- **universal:** add toSafeInteger ([03c3ecf](https://github.com/changjunhao/panacea/commit/03c3ecf912c27a6cbd7de4c18a183e5d90be548d))
+- **universal:** add truncateStringAtWhitespace ([cbb8ecd](https://github.com/changjunhao/panacea/commit/cbb8ecd215fb8055d26eec11b24297d4d640739f))
+- **universal:** add union ([c481887](https://github.com/changjunhao/panacea/commit/c48188799daad58bb6ada6a8914c0e29a6d528d0))
+
 # [0.1.0-alpha.3](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.0-alpha.2...panacea-core@0.1.0-alpha.3) (2022-04-22)
 
 ### Features

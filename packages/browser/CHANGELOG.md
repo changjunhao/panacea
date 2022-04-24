@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.0...panacea-browser@0.1.1) (2022-04-24)
+
+### Features
+
+- **browser:** add createElement ([4f40d7c](https://github.com/changjunhao/panacea/commit/4f40d7cedbdd4e092f401cb56d64f143bbbd50eb))
+- **browser:** add currentURL ([e5e0f60](https://github.com/changjunhao/panacea/commit/e5e0f609947e79d79a369bfdd851eb099dabe2da))
+- **browser:** add detectDeviceType ([a9f1162](https://github.com/changjunhao/panacea/commit/a9f11620911f3da5c593c16a7e7164b757ff973c))
+- **browser:** add findClosestMatchingNode ([5125e82](https://github.com/changjunhao/panacea/commit/5125e8263580b8d5421598504517a5b7070731b2))
+- **browser:** add getSelectedText ([b9e1f05](https://github.com/changjunhao/panacea/commit/b9e1f05915895b8968861b9c446b7bd27c20ccc6))
+- **browser:** add getVerticalOffset ([63ffb83](https://github.com/changjunhao/panacea/commit/63ffb834f3a6dbb943331bd4fa42a9b457174547))
+- **browser:** add insertAfter ([b4e31e4](https://github.com/changjunhao/panacea/commit/b4e31e4eb5f705881f3c9696d88a9a2739c425b7))
+- **browser:** add insertBefore ([9e232ab](https://github.com/changjunhao/panacea/commit/9e232ab975cacde18f3d3326d3a989e4a04dabcf))
+- **browser:** add prefersDarkColorScheme ([ee00e25](https://github.com/changjunhao/panacea/commit/ee00e25ef2feb6c5c91ce41a14c6b77a4d48396b))
+- **browser:** add prefersLightColorScheme ([2f75c56](https://github.com/changjunhao/panacea/commit/2f75c5627aaaad0b13e8754f941851e9c583710c))
+- **browser:** add redirect ([cf7e1fc](https://github.com/changjunhao/panacea/commit/cf7e1fc9bb131e1b5ddc1c7c6a5c897d7778e202))
+- **browser:** add setStyle ([93203c5](https://github.com/changjunhao/panacea/commit/93203c57633361f3278eff343e6777ca97cf996c))
+- **browser:** add smoothScroll ([f6ea89c](https://github.com/changjunhao/panacea/commit/f6ea89c103d3c031f8c30c7ec36a7bfa4d6887c4))
+- **browser:** add toggleClass ([d92e36b](https://github.com/changjunhao/panacea/commit/d92e36b13f7ebee47408684d0ed59f705fcdef33))
+
 # [0.1.0-alpha.2](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.0-alpha.1...panacea-browser@0.1.0-alpha.2) (2022-04-22)
 
 ### Features
