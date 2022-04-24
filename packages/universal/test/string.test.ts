@@ -10,6 +10,7 @@ import indentString from "./string/indentString";
 import fromCamelCase from "./string/fromCamelCase";
 import formatNumber from "./string/formatNumber";
 import pad from "./string/pad";
+import containsWhitespace from "./string/containsWhitespace";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -35,4 +36,6 @@ describe("string:", () => {
   describe("truncateStringAtWhitespace", truncateStringAtWhitespace);
 
   describe("pad", pad);
+
+  describe("containsWhitespace", containsWhitespace);
 });
