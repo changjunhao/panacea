@@ -9,6 +9,7 @@ import serializeCookie from "./string/serializeCookie";
 import indentString from "./string/indentString";
 import fromCamelCase from "./string/fromCamelCase";
 import formatNumber from "./string/formatNumber";
+import pad from "./string/pad";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -32,4 +33,6 @@ describe("string:", () => {
   describe("formatNumber", formatNumber);
 
   describe("truncateStringAtWhitespace", truncateStringAtWhitespace);
+
+  describe("pad", pad);
 });
