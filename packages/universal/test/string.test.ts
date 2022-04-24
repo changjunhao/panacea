@@ -14,6 +14,7 @@ import containsWhitespace from "./string/containsWhitespace";
 import isAlpha from "./string/isAlpha";
 import stripHTMLTags from "./string/stripHTMLTags";
 import normalizeLineEndings from "./string/normalizeLineEndings";
+import isAlphaNumeric from "./string/isAlphaNumeric";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -43,6 +44,8 @@ describe("string:", () => {
   describe("containsWhitespace", containsWhitespace);
 
   describe("isAlpha", isAlpha);
+
+  describe("isAlphaNumeric", isAlphaNumeric);
 
   describe("stripHTMLTags", stripHTMLTags);
 
