@@ -17,6 +17,7 @@ import normalizeLineEndings from "./string/normalizeLineEndings";
 import isAlphaNumeric from "./string/isAlphaNumeric";
 import isAbsoluteURL from "./string/isAbsoluteURL";
 import expandTabs from "./string/expandTabs";
+import escapeRegExp from "./string/escapeRegExp";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -56,4 +57,6 @@ describe("string:", () => {
   describe("isAbsoluteURL", isAbsoluteURL);
 
   describe("expandTabs", expandTabs);
+
+  describe("escapeRegExp", escapeRegExp);
 });
