@@ -13,6 +13,7 @@ import pad from "./string/pad";
 import containsWhitespace from "./string/containsWhitespace";
 import isAlpha from "./string/isAlpha";
 import stripHTMLTags from "./string/stripHTMLTags";
+import normalizeLineEndings from "./string/normalizeLineEndings";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -44,4 +45,6 @@ describe("string:", () => {
   describe("isAlpha", isAlpha);
 
   describe("stripHTMLTags", stripHTMLTags);
+
+  describe("normalizeLineEndings", normalizeLineEndings);
 });

@@ -38,6 +38,7 @@ export { default as pad } from "./string/pad";
 export { default as containsWhitespace } from "./string/containsWhitespace";
 export { default as isAlpha } from "./string/isAlpha";
 export { default as stripHTMLTags } from "./string/stripHTMLTags";
+export { default as normalizeLineEndings } from "./string/normalizeLineEndings";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 
