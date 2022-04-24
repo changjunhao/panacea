@@ -55,4 +55,6 @@ export { default as isBetweenDates } from "./date/isBetweenDates";
 
 export { default as union } from "./array/union";
 
+export { default as toSafeInteger } from "./math/toSafeInteger";
+
 export { default as caesarCipher } from "./algorithm/caesarCipher";
