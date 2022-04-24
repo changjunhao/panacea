@@ -41,6 +41,7 @@ export { default as isAlphaNumeric } from "./string/isAlphaNumeric";
 export { default as stripHTMLTags } from "./string/stripHTMLTags";
 export { default as normalizeLineEndings } from "./string/normalizeLineEndings";
 export { default as isAbsoluteURL } from "./string/isAbsoluteURL";
+export { default as expandTabs } from "./string/expandTabs";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 
