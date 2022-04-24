@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.1...panacea-core@0.1.2) (2022-04-24)
+
+### Bug Fixes
+
+- **universal:** fixed typescript compiler ([544d216](https://github.com/changjunhao/panacea/commit/544d216ede430660cd7b8a4dba849583e4e5d0d3))
+
 ## [0.1.1](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.0...panacea-core@0.1.1) (2022-04-24)
 
 ### Features
