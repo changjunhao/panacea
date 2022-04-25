@@ -11,6 +11,7 @@ import findClosestMatchingNode from "./dom/findClosestMatchingNode";
 import toggleClass from "./dom/toggleClass";
 import smoothScroll from "./dom/smoothScroll";
 import removeClass from "./dom/removeClass";
+import getStyle from "./dom/getStyle";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -38,4 +39,6 @@ describe("string:", () => {
   describe("smoothScroll:", smoothScroll);
 
   describe("removeClass:", removeClass);
+
+  describe("getStyle:", getStyle);
 });
