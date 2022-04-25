@@ -11,7 +11,18 @@
  * @since 0.1.2
  * @category DOM
  */
-const getStyle = (el: HTMLElement, ruleName: keyof CSSStyleDeclaration) =>
-  getComputedStyle(el)[ruleName];
+const getStyle = (
+  el: HTMLElement,
+  ruleName: Exclude<
+    keyof CSSStyleDeclaration,
+    | "length"
+    | "parentRule"
+    | "getPropertyPriority"
+    | "getPropertyValue"
+    | "item"
+    | "removeProperty"
+    | "setProperty"
+  >
+): string => getComputedStyle(el)[ruleName];
 
 export default getStyle;

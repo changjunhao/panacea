@@ -14,6 +14,7 @@ import addClass from "./dom/addClass";
 import removeClass from "./dom/removeClass";
 import getStyle from "./dom/getStyle";
 import getScrollPosition from "./dom/getScrollPosition";
+import triggerEvent from "./dom/triggerEvent";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -47,4 +48,6 @@ describe("string:", () => {
   describe("getStyle:", getStyle);
 
   describe("getScrollPosition:", getScrollPosition);
+
+  describe("triggerEvent:", triggerEvent);
 });
