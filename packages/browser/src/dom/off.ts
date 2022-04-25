@@ -1,3 +1,18 @@
+/** @public */
+function off<K extends keyof HTMLElementEventMap>(
+  el: HTMLElement,
+  evt: K,
+  handler: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any,
+  options?: boolean | EventListenerOptions
+): void;
+/** @public */
+function off<K extends keyof WindowEventMap>(
+  el: Window,
+  evt: K,
+  handler: (this: Window, ev: WindowEventMap[K]) => any,
+  options?: boolean | EventListenerOptions
+): void;
+
 /**
  * Removes an event listener from an element.
  * @param el - The element to remove the event listener from.
@@ -14,11 +29,11 @@
  * @category DOM
  * @public
  */
-function off<K extends keyof HTMLElementEventMap>(
-  el: HTMLElement,
-  evt: K,
-  fn: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any,
-  opts?: boolean | AddEventListenerOptions
+function off(
+  el: HTMLElement | Window,
+  evt: string,
+  fn: (evt: Event) => any,
+  opts?: boolean | EventListenerOptions
 ) {
   el.removeEventListener(evt, fn, opts);
 }

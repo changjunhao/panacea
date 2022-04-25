@@ -1,8 +1,8 @@
 /** @public */
-function listenOnce<T extends keyof HTMLElementEventMap>(
+function listenOnce<K extends keyof HTMLElementEventMap>(
   el: HTMLElement,
-  evt: T,
-  fn: (this: HTMLElement, evt: HTMLElementEventMap[T]) => any
+  evt: K,
+  fn: (this: HTMLElement, evt: HTMLElementEventMap[K]) => any
 ): void;
 /** @public */
 function listenOnce<K extends keyof WindowEventMap>(
@@ -30,7 +30,7 @@ function listenOnce<K extends keyof WindowEventMap>(
 function listenOnce(
   el: HTMLElement | Window,
   evt: string,
-  fn: (this: HTMLElement | Window, ev: Event) => any
+  fn: (ev: Event) => any
 ): void {
   el.addEventListener(evt, fn, { once: true });
 }
