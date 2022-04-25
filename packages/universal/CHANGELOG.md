@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.2...panacea-core@0.1.3) (2022-04-25)
+
+### Features
+
+- **universal:** add capitalizeEveryWord ([a69ed00](https://github.com/changjunhao/panacea/commit/a69ed00eb69785563d4659cf505a90fc166f791c))
+- **universal:** add checkProp ([1645149](https://github.com/changjunhao/panacea/commit/164514943ffc92d612423fb2bcf82adad11afb65))
+- **universal:** add compactWhitespace ([c8001bb](https://github.com/changjunhao/panacea/commit/c8001bb47506a623398ba03ab20578fff7191297))
+- **universal:** add generateItems ([61a3d42](https://github.com/changjunhao/panacea/commit/61a3d420fbfa7fb65a1151957e461924e773161f))
+- **universal:** add isSameOrigin ([680d96c](https://github.com/changjunhao/panacea/commit/680d96c60ab04fb1c4716efbc507d829b456dd48))
+- **universal:** add objectToPairs ([6174450](https://github.com/changjunhao/panacea/commit/6174450237920584dfac9f76d0c0cd40c8e99d2e))
+- **universal:** add removeNonASCII ([5ae0527](https://github.com/changjunhao/panacea/commit/5ae05279f0e3364f989325be6bcfcca57e99da1f))
+- **universal:** add removeWhitespace ([6071a3e](https://github.com/changjunhao/panacea/commit/6071a3e2fe7c37ad683e5c543d9bab374ab1a0ad))
+- **universal:** add shallowClone ([7af81ae](https://github.com/changjunhao/panacea/commit/7af81aefad1ff1bbd8496dd651d77a349a64509c))
+- **universal:** add slugify ([23b6ceb](https://github.com/changjunhao/panacea/commit/23b6ceb2087a56672e034d1a03add4c144c3ea48))
+- **universal:** add when ([a5ad87d](https://github.com/changjunhao/panacea/commit/a5ad87d747ee3f3e1483bf7fbccafa5a7eac0940))
+- **universal:** add wordWrap ([601ea85](https://github.com/changjunhao/panacea/commit/601ea8503a9d1b388f907af534ee1282591a6224))
+
 ## [0.1.2](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.1...panacea-core@0.1.2) (2022-04-24)
 
 ### Bug Fixes
