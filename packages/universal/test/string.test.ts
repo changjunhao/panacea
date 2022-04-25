@@ -22,6 +22,7 @@ import capitalizeEveryWord from "./string/capitalizeEveryWord";
 import wordWrap from "./string/wordWrap";
 import slugify from "./string/slugify";
 import removeWhitespace from "./string/removeWhitespace";
+import removeNonASCII from "./string/removeNonASCII";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -71,4 +72,6 @@ describe("string:", () => {
   describe("slugify", slugify);
 
   describe("removeWhitespace", removeWhitespace);
+
+  describe("removeNonASCII", removeNonASCII);
 });
