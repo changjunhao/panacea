@@ -20,6 +20,7 @@ import expandTabs from "./string/expandTabs";
 import escapeRegExp from "./string/escapeRegExp";
 import capitalizeEveryWord from "./string/capitalizeEveryWord";
 import wordWrap from "./string/wordWrap";
+import slugify from "./string/slugify";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -65,4 +66,6 @@ describe("string:", () => {
   describe("capitalizeEveryWord", capitalizeEveryWord);
 
   describe("wordWrap", wordWrap);
+
+  describe("slugify", slugify);
 });
