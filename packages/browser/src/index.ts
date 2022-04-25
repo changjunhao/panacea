@@ -16,6 +16,7 @@ export { default as getVerticalOffset } from "./dom/getVerticalOffset";
 export { default as findClosestMatchingNode } from "./dom/findClosestMatchingNode";
 export { default as toggleClass } from "./dom/toggleClass";
 export { default as smoothScroll } from "./dom/smoothScroll";
+export { default as removeClass } from "./dom/removeClass";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";
