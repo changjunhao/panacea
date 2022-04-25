@@ -8,6 +8,7 @@ import detectDeviceType from "./bom/detectDeviceType";
 import getSelectedText from "./bom/getSelectedText";
 import currentURL from "./bom/currentURL";
 import redirect from "./bom/redirect";
+import detectLanguage from "./bom/detectLanguage";
 
 describe("BOM:", function () {
   describe("supportsTouchEvents:", supportsTouchEvents);
@@ -29,4 +30,6 @@ describe("BOM:", function () {
   describe("currentURL:", currentURL);
 
   describe("redirect:", redirect);
+
+  describe("detectLanguage:", detectLanguage);
 });
