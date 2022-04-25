@@ -19,6 +19,7 @@ import isAbsoluteURL from "./string/isAbsoluteURL";
 import expandTabs from "./string/expandTabs";
 import escapeRegExp from "./string/escapeRegExp";
 import capitalizeEveryWord from "./string/capitalizeEveryWord";
+import wordWrap from "./string/wordWrap";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -62,4 +63,6 @@ describe("string:", () => {
   describe("escapeRegExp", escapeRegExp);
 
   describe("capitalizeEveryWord", capitalizeEveryWord);
+
+  describe("wordWrap", wordWrap);
 });

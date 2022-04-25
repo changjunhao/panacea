@@ -44,6 +44,7 @@ export { default as isAbsoluteURL } from "./string/isAbsoluteURL";
 export { default as expandTabs } from "./string/expandTabs";
 export { default as escapeRegExp } from "./string/escapeRegExp";
 export { default as capitalizeEveryWord } from "./string/capitalizeEveryWord";
+export { default as wordWrap } from "./string/wordWrap";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 
