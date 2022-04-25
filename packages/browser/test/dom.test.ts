@@ -12,6 +12,7 @@ import toggleClass from "./dom/toggleClass";
 import smoothScroll from "./dom/smoothScroll";
 import removeClass from "./dom/removeClass";
 import getStyle from "./dom/getStyle";
+import getScrollPosition from "./dom/getScrollPosition";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -41,4 +42,6 @@ describe("string:", () => {
   describe("removeClass:", removeClass);
 
   describe("getStyle:", getStyle);
+
+  describe("getScrollPosition:", getScrollPosition);
 });
