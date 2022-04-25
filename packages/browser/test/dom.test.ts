@@ -10,6 +10,7 @@ import setStyle from "./dom/setStyle";
 import findClosestMatchingNode from "./dom/findClosestMatchingNode";
 import toggleClass from "./dom/toggleClass";
 import smoothScroll from "./dom/smoothScroll";
+import addClass from "./dom/addClass";
 import removeClass from "./dom/removeClass";
 import getStyle from "./dom/getStyle";
 import getScrollPosition from "./dom/getScrollPosition";
@@ -38,6 +39,8 @@ describe("string:", () => {
   describe("toggleClass:", toggleClass);
 
   describe("smoothScroll:", smoothScroll);
+
+  describe("addClass:", addClass);
 
   describe("removeClass:", removeClass);
 
