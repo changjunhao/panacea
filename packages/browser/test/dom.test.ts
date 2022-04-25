@@ -18,6 +18,7 @@ import triggerEvent from "./dom/triggerEvent";
 import injectCSS from "./dom/injectCSS";
 import findClosestAnchor from "./dom/findClosestAnchor";
 import off from "./dom/off";
+import listenOnce from "./dom/listenOnce";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -59,4 +60,6 @@ describe("string:", () => {
   describe("findClosestAnchor:", findClosestAnchor);
 
   describe("off:", off);
+
+  describe("listenOnce:", listenOnce);
 });
