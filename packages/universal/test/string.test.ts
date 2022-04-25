@@ -21,6 +21,7 @@ import escapeRegExp from "./string/escapeRegExp";
 import capitalizeEveryWord from "./string/capitalizeEveryWord";
 import wordWrap from "./string/wordWrap";
 import slugify from "./string/slugify";
+import removeWhitespace from "./string/removeWhitespace";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -68,4 +69,6 @@ describe("string:", () => {
   describe("wordWrap", wordWrap);
 
   describe("slugify", slugify);
+
+  describe("removeWhitespace", removeWhitespace);
 });

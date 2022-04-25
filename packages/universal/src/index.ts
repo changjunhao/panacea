@@ -46,6 +46,7 @@ export { default as escapeRegExp } from "./string/escapeRegExp";
 export { default as capitalizeEveryWord } from "./string/capitalizeEveryWord";
 export { default as wordWrap } from "./string/wordWrap";
 export { default as slugify } from "./string/slugify";
+export { default as removeWhitespace } from "./string/removeWhitespace";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 
