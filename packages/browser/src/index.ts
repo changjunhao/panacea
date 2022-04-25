@@ -35,6 +35,7 @@ export { default as getSelectedText } from "./bom/getSelectedText";
 export { default as currentURL } from "./bom/currentURL";
 export { default as redirect } from "./bom/redirect";
 export { default as detectLanguage } from "./bom/detectLanguage";
+export { default as httpDelete } from "./bom/httpDelete";
 
 export { default as hashBrowser } from "./crypto/hashBrowser";
 
