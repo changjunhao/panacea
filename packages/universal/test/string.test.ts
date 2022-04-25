@@ -23,6 +23,7 @@ import wordWrap from "./string/wordWrap";
 import slugify from "./string/slugify";
 import removeWhitespace from "./string/removeWhitespace";
 import removeNonASCII from "./string/removeNonASCII";
+import compactWhitespace from "./string/compactWhitespace";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -74,4 +75,6 @@ describe("string:", () => {
   describe("removeWhitespace", removeWhitespace);
 
   describe("removeNonASCII", removeNonASCII);
+
+  describe("compactWhitespace", compactWhitespace);
 });
