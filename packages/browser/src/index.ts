@@ -24,6 +24,7 @@ export { default as triggerEvent } from "./dom/triggerEvent";
 export { default as scrollToTop } from "./dom/scrollToTop";
 export { default as injectCSS } from "./dom/injectCSS";
 export { default as findClosestAnchor } from "./dom/findClosestAnchor";
+export { default as on } from "./dom/on";
 export { default as off } from "./dom/off";
 export { default as listenOnce } from "./dom/listenOnce";
 

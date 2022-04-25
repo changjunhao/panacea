@@ -18,6 +18,7 @@ import triggerEvent from "./dom/triggerEvent";
 import injectCSS from "./dom/injectCSS";
 import findClosestAnchor from "./dom/findClosestAnchor";
 import off from "./dom/off";
+import on from "./dom/on";
 import listenOnce from "./dom/listenOnce";
 
 describe("string:", () => {
@@ -62,4 +63,6 @@ describe("string:", () => {
   describe("off:", off);
 
   describe("listenOnce:", listenOnce);
+
+  describe("on", on);
 });
