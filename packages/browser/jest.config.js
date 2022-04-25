@@ -30,6 +30,7 @@ module.exports = {
     "/src/dom/fullscreen.ts",
     "/src/dom/elementIsVisibleInViewport.ts",
     "/src/dom/getVerticalOffset.ts",
+    "/src/dom/scrollToTop.ts",
   ],
 
   // Indicates which provider should be used to instrument code for coverage

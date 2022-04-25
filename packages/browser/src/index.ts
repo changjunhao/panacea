@@ -21,6 +21,7 @@ export { default as removeClass } from "./dom/removeClass";
 export { default as getStyle } from "./dom/getStyle";
 export { default as getScrollPosition } from "./dom/getScrollPosition";
 export { default as triggerEvent } from "./dom/triggerEvent";
+export { default as scrollToTop } from "./dom/scrollToTop";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";
