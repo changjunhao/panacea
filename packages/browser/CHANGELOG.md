@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.1...panacea-browser@0.1.2) (2022-04-25)
+
+### Bug Fixes
+
+- **browser:** fixed off and listenOnce types ([78615d0](https://github.com/changjunhao/panacea/commit/78615d0dc1d75b6cab3d0d398f6ed610547c9be4))
+
+### Features
+
+- **browser:** add addClass ([81f9408](https://github.com/changjunhao/panacea/commit/81f940825f053c62809854910d3c39ce3dadfec3))
+- **browser:** add detectLanguage ([8aded2f](https://github.com/changjunhao/panacea/commit/8aded2fb06b59b74234871664d5f3bfdfbc972a3))
+- **browser:** add findClosestAnchor ([0d0efe6](https://github.com/changjunhao/panacea/commit/0d0efe6281c90677775458a4e8a3326f8717f1e0))
+- **browser:** add getScrollPosition ([8cf8430](https://github.com/changjunhao/panacea/commit/8cf84301afdfabad888c290079915358157b3deb))
+- **browser:** add getStyle ([22d0c27](https://github.com/changjunhao/panacea/commit/22d0c278dd81fa42a120f0936e25e7f4735ca95b))
+- **browser:** add httpDelete ([df76dff](https://github.com/changjunhao/panacea/commit/df76dffe5538ddd2a36b1896247e4d861e68651b))
+- **browser:** add injectCSS ([4571f2d](https://github.com/changjunhao/panacea/commit/4571f2d3e3ddbe9fb98a10efbbcdaf858264a076))
+- **browser:** add listenOnce ([7b78c11](https://github.com/changjunhao/panacea/commit/7b78c1138eb7609923c07aeabb73552805d5c9d9))
+- **browser:** add off ([23d9ef8](https://github.com/changjunhao/panacea/commit/23d9ef8dcf9410949652e3a71844e792d46a1905))
+- **browser:** add on ([9225b56](https://github.com/changjunhao/panacea/commit/9225b56a5574b65981475299710eab36b3b1b3d2))
+- **browser:** add removeClass ([3a7ad7d](https://github.com/changjunhao/panacea/commit/3a7ad7d75fa26dbcf335ae1d86e43516ccf49381))
+- **browser:** add scrollToTop ([adaa689](https://github.com/changjunhao/panacea/commit/adaa689496afa717b66be07782675703482fa6cb))
+- **browser:** add triggerEvent ([061f787](https://github.com/changjunhao/panacea/commit/061f7875f68fca7fd528d887425a61f64293168f))
+
 ## [0.1.1](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.0...panacea-browser@0.1.1) (2022-04-24)
 
 ### Features
