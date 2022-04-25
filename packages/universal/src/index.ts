@@ -56,6 +56,7 @@ export { default as equals } from "./object/equals";
 export { default as shallowClone } from "./object/shallowClone";
 export { default as isSameOrigin } from "./object/isSameOrigin";
 export { default as checkProp } from "./object/checkProp";
+export { default as objectToPairs } from "./object/objectToPairs";
 
 export { default as isNode } from "./environment/isNode";
 export { default as isBrowser } from "./environment/isBrowser";
