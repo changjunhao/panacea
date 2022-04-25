@@ -23,6 +23,7 @@ export { default as getScrollPosition } from "./dom/getScrollPosition";
 export { default as triggerEvent } from "./dom/triggerEvent";
 export { default as scrollToTop } from "./dom/scrollToTop";
 export { default as injectCSS } from "./dom/injectCSS";
+export { default as findClosestAnchor } from "./dom/findClosestAnchor";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";

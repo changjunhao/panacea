@@ -16,6 +16,7 @@ import getStyle from "./dom/getStyle";
 import getScrollPosition from "./dom/getScrollPosition";
 import triggerEvent from "./dom/triggerEvent";
 import injectCSS from "./dom/injectCSS";
+import findClosestAnchor from "./dom/findClosestAnchor";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -53,4 +54,6 @@ describe("string:", () => {
   describe("triggerEvent:", triggerEvent);
 
   describe("injectCSS:", injectCSS);
+
+  describe("findClosestAnchor:", findClosestAnchor);
 });
