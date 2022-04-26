@@ -68,5 +68,6 @@ export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
+export { default as isPrime } from "./math/isPrime";
 
 export { default as caesarCipher } from "./algorithm/caesarCipher";
