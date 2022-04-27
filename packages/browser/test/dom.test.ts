@@ -22,6 +22,7 @@ import on from "./dom/on";
 import listenOnce from "./dom/listenOnce";
 import hasClass from "./dom/hasClass";
 import onClickOutside from "./dom/onClickOutside";
+import getAncestors from "./dom/getAncestors";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -71,4 +72,6 @@ describe("string:", () => {
   describe("hasClass", hasClass);
 
   describe("onClickOutside", onClickOutside);
+
+  describe("getAncestors", getAncestors);
 });
