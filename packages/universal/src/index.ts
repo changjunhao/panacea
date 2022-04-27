@@ -52,6 +52,7 @@ export { default as compactWhitespace } from "./string/compactWhitespace";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 export { default as when } from "./function/when";
+export { default as unary } from "./function/unary";
 
 export { default as equals } from "./object/equals";
 export { default as shallowClone } from "./object/shallowClone";
