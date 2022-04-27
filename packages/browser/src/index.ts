@@ -40,6 +40,7 @@ export { default as currentURL } from "./bom/currentURL";
 export { default as redirect } from "./bom/redirect";
 export { default as detectLanguage } from "./bom/detectLanguage";
 export { default as httpDelete } from "./bom/httpDelete";
+export { default as httpGet } from "./bom/httpGet";
 
 export { default as hashBrowser } from "./crypto/hashBrowser";
 

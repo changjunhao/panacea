@@ -32,6 +32,7 @@ module.exports = {
     "/src/dom/getVerticalOffset.ts",
     "/src/dom/scrollToTop.ts",
     "/src/bom/httpDelete.ts",
+    "/src/bom/httpGet.ts",
   ],
 
   // Indicates which provider should be used to instrument code for coverage
