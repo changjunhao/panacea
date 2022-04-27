@@ -43,6 +43,7 @@ export { default as redirect } from "./bom/redirect";
 export { default as detectLanguage } from "./bom/detectLanguage";
 export { default as httpDelete } from "./bom/httpDelete";
 export { default as httpGet } from "./bom/httpGet";
+export { default as httpsRedirect } from "./bom/httpsRedirect";
 
 export { default as hashBrowser } from "./crypto/hashBrowser";
 
