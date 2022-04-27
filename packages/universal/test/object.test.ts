@@ -3,6 +3,7 @@ import shallowClone from "./object/shallowClone";
 import isSameOrigin from "./object/isSameOrigin";
 import checkProp from "./object/checkProp";
 import objectToPairs from "./object/objectToPairs";
+import matches from "./object/matches";
 
 describe("object:", function () {
   describe("equals:", equals);
@@ -14,4 +15,6 @@ describe("object:", function () {
   describe("checkProp:", checkProp);
 
   describe("objectToPairs:", objectToPairs);
+
+  describe("matches:", matches);
 });
