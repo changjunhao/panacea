@@ -64,6 +64,7 @@ export { default as isBrowser } from "./environment/isBrowser";
 
 export { default as isBetweenDates } from "./date/isBetweenDates";
 export { default as isBeforeDate } from "./date/isBeforeDate";
+export { default as isAfterDate } from "./date/isAfterDate";
 
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";
