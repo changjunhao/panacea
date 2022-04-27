@@ -49,6 +49,7 @@ export { default as slugify } from "./string/slugify";
 export { default as removeWhitespace } from "./string/removeWhitespace";
 export { default as removeNonASCII } from "./string/removeNonASCII";
 export { default as compactWhitespace } from "./string/compactWhitespace";
+export { default as toCharArray } from "./string/toCharArray";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 export { default as when } from "./function/when";

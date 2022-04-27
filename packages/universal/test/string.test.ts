@@ -24,6 +24,7 @@ import slugify from "./string/slugify";
 import removeWhitespace from "./string/removeWhitespace";
 import removeNonASCII from "./string/removeNonASCII";
 import compactWhitespace from "./string/compactWhitespace";
+import toCharArray from "./string/toCharArray";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -77,4 +78,6 @@ describe("string:", () => {
   describe("removeNonASCII", removeNonASCII);
 
   describe("compactWhitespace", compactWhitespace);
+
+  describe("toCharArray", toCharArray);
 });
