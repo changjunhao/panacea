@@ -33,6 +33,8 @@ module.exports = {
     "/src/dom/scrollToTop.ts",
     "/src/bom/httpDelete.ts",
     "/src/bom/httpGet.ts",
+    "/src/bom/httpPut.ts",
+    "/src/bom/httpPost.ts",
     "/src/bom/httpsRedirect.ts",
   ],
 
