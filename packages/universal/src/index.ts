@@ -63,6 +63,7 @@ export { default as isNode } from "./environment/isNode";
 export { default as isBrowser } from "./environment/isBrowser";
 
 export { default as isBetweenDates } from "./date/isBetweenDates";
+export { default as isBeforeDate } from "./date/isBeforeDate";
 
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";
