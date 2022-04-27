@@ -72,6 +72,7 @@ export { default as isAfterDate } from "./date/isAfterDate";
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";
 export { default as head } from "./array/head";
+export { default as initializeArrayWithValues } from "./array/initializeArrayWithValues";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as isPrime } from "./math/isPrime";

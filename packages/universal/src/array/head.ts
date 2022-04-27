@@ -9,7 +9,7 @@
  * head(null); // undefined
  * head(undefined); // undefined
  * ```
- * @category array
+ * @category Array
  * @since 0.1.4
  * @public
  */
