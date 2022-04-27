@@ -20,6 +20,7 @@ import findClosestAnchor from "./dom/findClosestAnchor";
 import off from "./dom/off";
 import on from "./dom/on";
 import listenOnce from "./dom/listenOnce";
+import hasClass from "./dom/hasClass";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -65,4 +66,6 @@ describe("string:", () => {
   describe("listenOnce:", listenOnce);
 
   describe("on", on);
+
+  describe("hasClass", hasClass);
 });
