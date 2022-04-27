@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.3...panacea-core@0.1.4) (2022-04-27)
+
+### Features
+
+- **universal:** add head ([f1faaf2](https://github.com/changjunhao/panacea/commit/f1faaf2f0074dbe92492e45057cc00e0b1e455da))
+- **universal:** add initializeArrayWithValues ([e300314](https://github.com/changjunhao/panacea/commit/e300314f05e976c718dadeeda06956dc66ed2797))
+- **universal:** add isAfterDate ([3551490](https://github.com/changjunhao/panacea/commit/35514907d5201844f1d0aca4bf80fb132cad9bd0))
+- **universal:** add isBeforeDate ([2de47d7](https://github.com/changjunhao/panacea/commit/2de47d738aaa0d338796ac1f3c19b5d5753689c1))
+- **universal:** add isPrime ([e01a2fa](https://github.com/changjunhao/panacea/commit/e01a2fae74ad80bd8f3cffd6986bc923bd6250c9))
+- **universal:** add matches ([e3341ae](https://github.com/changjunhao/panacea/commit/e3341aea25c7692cf17f27cd4e21db87aa46f907))
+- **universal:** add toCharArray ([d7bb3f6](https://github.com/changjunhao/panacea/commit/d7bb3f65dca3eb4600c331ec3d7447d076e23e59))
+- **universal:** add unary ([ca044a6](https://github.com/changjunhao/panacea/commit/ca044a669fb78596c57051b90d920fd7e2cb4aab))
+
 ## [0.1.3](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.2...panacea-core@0.1.3) (2022-04-25)
 
 ### Features

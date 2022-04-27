@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.2...panacea-browser@0.1.3) (2022-04-27)
+
+### Features
+
+- **browser:** add addStyles ([5911132](https://github.com/changjunhao/panacea/commit/5911132ec90581aeb393f47a930d309ff398594e))
+- **browser:** add getAncestors ([50d6ce9](https://github.com/changjunhao/panacea/commit/50d6ce9f3ece6d77bc670b5af119d80a162fa559))
+- **browser:** add hasClass ([fb9f255](https://github.com/changjunhao/panacea/commit/fb9f2552188d0dafef9394e33e4a777bcd4b7eca))
+- **browser:** add httpGet ([9758a10](https://github.com/changjunhao/panacea/commit/9758a108940d4700eb7b4e2c9a84994ca55f70ff))
+- **browser:** add httpPost and httpPut ([dd7f25c](https://github.com/changjunhao/panacea/commit/dd7f25ceb8f635727027fe47db7eec648979dd12))
+- **browser:** add httpsRedirect ([8ee0c08](https://github.com/changjunhao/panacea/commit/8ee0c082a45c8b7b7874bef9d41f265103bd4cc6))
+- **browser:** add onClickOutside ([d2f68ee](https://github.com/changjunhao/panacea/commit/d2f68ee5392b4094ad5406b82bce23a527629a9a))
+
 ## [0.1.2](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.1...panacea-browser@0.1.2) (2022-04-25)
 
 ### Bug Fixes
