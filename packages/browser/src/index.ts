@@ -32,6 +32,7 @@ export { default as onClickOutside } from "./dom/onClickOutside";
 export { default as getAncestors } from "./dom/getAncestors";
 export { default as addStyles } from "./dom/addStyles";
 export { default as nodeListToArray } from "./dom/nodeListToArray";
+export { default as getElementsBiggerThanViewport } from "./dom/getElementsBiggerThanViewport";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";

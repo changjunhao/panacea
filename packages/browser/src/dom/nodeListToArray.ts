@@ -8,7 +8,7 @@
  * nodeListToArray(document.childNodes); // [ <!DOCTYPE html>, html ]
  * ```
  * @since 0.1.4
- * category DOM
+ * @category DOM
  */
 // @ts-ignore
 const nodeListToArray = (nodeList: NodeList) => [...nodeList];

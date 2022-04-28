@@ -25,6 +25,7 @@ import onClickOutside from "./dom/onClickOutside";
 import getAncestors from "./dom/getAncestors";
 import addStyles from "./dom/addStyles";
 import nodeListToArray from "./dom/nodeListToArray";
+import getElementsBiggerThanViewport from "./dom/getElementsBiggerThanViewport";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -80,4 +81,6 @@ describe("string:", () => {
   describe("addStyles", addStyles);
 
   describe("nodeListToArray", nodeListToArray);
+
+  describe("getElementsBiggerThanViewport", getElementsBiggerThanViewport);
 });
