@@ -22,6 +22,8 @@ const getStyle = (
     | "item"
     | "removeProperty"
     | "setProperty"
+    | number
+    | typeof Symbol.iterator
   >
 ): string => getComputedStyle(el)[ruleName];
 

@@ -24,6 +24,7 @@ import hasClass from "./dom/hasClass";
 import onClickOutside from "./dom/onClickOutside";
 import getAncestors from "./dom/getAncestors";
 import addStyles from "./dom/addStyles";
+import nodeListToArray from "./dom/nodeListToArray";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -77,4 +78,6 @@ describe("string:", () => {
   describe("getAncestors", getAncestors);
 
   describe("addStyles", addStyles);
+
+  describe("nodeListToArray", nodeListToArray);
 });
