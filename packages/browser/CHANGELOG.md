@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.3...panacea-browser@0.1.4) (2022-04-28)
+
+### Features
+
+- **browser:** add getElementsBiggerThanViewport ([fd6ea50](https://github.com/changjunhao/panacea/commit/fd6ea50fe5d1b083568bcef957a0ca9a106f3c66))
+- **browser:** add getImages ([012004a](https://github.com/changjunhao/panacea/commit/012004a2de961d385e409c5fa65087e15ead95c9))
+- **browser:** add getParentsUntil ([0eb3a44](https://github.com/changjunhao/panacea/commit/0eb3a4458805e830905050b69c51873a6fb4a15e))
+- **browser:** add nodeListToArray ([f21a56c](https://github.com/changjunhao/panacea/commit/f21a56c3d74e226662512fe7a9c2d4ede5f95d52))
+
 ## [0.1.3](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.2...panacea-browser@0.1.3) (2022-04-27)
 
 ### Features

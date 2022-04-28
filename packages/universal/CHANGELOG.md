@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.4...panacea-core@0.1.5) (2022-04-28)
+
+### Features
+
+- **universal:** add allEqual ([cfa2566](https://github.com/changjunhao/panacea/commit/cfa2566c5330ae1cf2d9829dba35a9f80d2d1a46))
+- **universal:** add getBaseURL ([c7989ef](https://github.com/changjunhao/panacea/commit/c7989eff1207da1673a6906f6c8dec031483866b))
+- **universal:** add hasDuplicates ([c27545d](https://github.com/changjunhao/panacea/commit/c27545df99d36a1a8cbe9c212d134f6dd74cd6ca))
+- **universal:** add incldesAll ([815355a](https://github.com/changjunhao/panacea/commit/815355af3e07ec49bc283ffa2875ef5d167e1949))
+- **universal:** add includesAny ([aab1e8e](https://github.com/changjunhao/panacea/commit/aab1e8e7c3efc26aaf50b00ac3c9149b57e070a9))
+- **universal:** add initial ([0e2de2e](https://github.com/changjunhao/panacea/commit/0e2de2e5385178dbb6a6b564bc7c732961cc93c0))
+- **universal:** add isSorted ([cc26dc9](https://github.com/changjunhao/panacea/commit/cc26dc9a88fd2c8457143879cd20ea640411451a))
+- **universal:** add last ([3d5a070](https://github.com/changjunhao/panacea/commit/3d5a0706aa8dc69d116ccc05aa139d79e448bb46))
+- **universal:** add tail ([e735c47](https://github.com/changjunhao/panacea/commit/e735c478e908d95697b5fcbcac1bbae7332b36f2))
+- **universal:** add uniqueElements ([e57dbad](https://github.com/changjunhao/panacea/commit/e57dbad5ab115f66024b10776dacabe0d4b1808b))
+
 ## [0.1.4](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.3...panacea-core@0.1.4) (2022-04-27)
 
 ### Features
