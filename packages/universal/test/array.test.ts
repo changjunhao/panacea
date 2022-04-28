@@ -2,6 +2,7 @@ import union from "./array/union";
 import generateItems from "./array/generateItems";
 import head from "./array/head";
 import last from "./array/last";
+import tail from "./array/tail";
 import initializeArrayWithValues from "./array/initializeArrayWithValues";
 import includesAny from "./array/includesAny";
 import includesAll from "./array/includesAll";
@@ -15,6 +16,8 @@ describe("Array:", function () {
   describe("head:", head);
 
   describe("last:", last);
+
+  describe("tail:", tail);
 
   describe("initializeArrayWithValues:", initializeArrayWithValues);
 
