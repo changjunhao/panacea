@@ -25,6 +25,7 @@ import removeWhitespace from "./string/removeWhitespace";
 import removeNonASCII from "./string/removeNonASCII";
 import compactWhitespace from "./string/compactWhitespace";
 import toCharArray from "./string/toCharArray";
+import getBaseURL from "./string/getBaseURL";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -80,4 +81,6 @@ describe("string:", () => {
   describe("compactWhitespace", compactWhitespace);
 
   describe("toCharArray", toCharArray);
+
+  describe("getBaseURL", getBaseURL);
 });
