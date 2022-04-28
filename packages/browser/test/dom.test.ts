@@ -27,6 +27,7 @@ import addStyles from "./dom/addStyles";
 import nodeListToArray from "./dom/nodeListToArray";
 import getElementsBiggerThanViewport from "./dom/getElementsBiggerThanViewport";
 import getImages from "./dom/getImages";
+import getParentsUntil from "./dom/getParentsUntil";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -86,4 +87,6 @@ describe("string:", () => {
   describe("getElementsBiggerThanViewport", getElementsBiggerThanViewport);
 
   describe("getImages", getImages);
+
+  describe("getParentsUntil", getParentsUntil);
 });
