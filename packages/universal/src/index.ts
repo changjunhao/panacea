@@ -75,6 +75,7 @@ export { default as head } from "./array/head";
 export { default as initializeArrayWithValues } from "./array/initializeArrayWithValues";
 export { default as includesAny } from "./array/includesAny";
 export { default as includesAll } from "./array/includesAll";
+export { default as allEqual } from "./array/allEqual";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as isPrime } from "./math/isPrime";

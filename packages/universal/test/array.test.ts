@@ -4,6 +4,7 @@ import head from "./array/head";
 import initializeArrayWithValues from "./array/initializeArrayWithValues";
 import includesAny from "./array/includesAny";
 import includesAll from "./array/includesAll";
+import allEqual from "./array/allEqual";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -17,4 +18,6 @@ describe("Array:", function () {
   describe("includesAny:", includesAny);
 
   describe("includesAll:", includesAll);
+
+  describe("allEqual:", allEqual);
 });
