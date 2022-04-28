@@ -33,6 +33,7 @@ export { default as getAncestors } from "./dom/getAncestors";
 export { default as addStyles } from "./dom/addStyles";
 export { default as nodeListToArray } from "./dom/nodeListToArray";
 export { default as getElementsBiggerThanViewport } from "./dom/getElementsBiggerThanViewport";
+export { default as getImages } from "./dom/getImages";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";
