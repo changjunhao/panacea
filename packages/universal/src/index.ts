@@ -81,6 +81,7 @@ export { default as includesAll } from "./array/includesAll";
 export { default as allEqual } from "./array/allEqual";
 export { default as isSorted } from "./array/isSorted";
 export { default as hasDuplicates } from "./array/hasDuplicates";
+export { default as uniqueElements } from "./array/uniqueElements";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as isPrime } from "./math/isPrime";

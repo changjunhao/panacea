@@ -10,6 +10,7 @@ import includesAll from "./array/includesAll";
 import allEqual from "./array/allEqual";
 import isSorted from "./array/isSorted";
 import hasDuplicates from "./array/hasDuplicates";
+import uniqueElements from "./array/uniqueElements";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -35,4 +36,6 @@ describe("Array:", function () {
   describe("isSorted:", isSorted);
 
   describe("hasDuplicates:", hasDuplicates);
+
+  describe("uniqueElements:", uniqueElements);
 });
