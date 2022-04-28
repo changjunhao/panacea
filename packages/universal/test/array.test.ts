@@ -9,6 +9,7 @@ import includesAny from "./array/includesAny";
 import includesAll from "./array/includesAll";
 import allEqual from "./array/allEqual";
 import isSorted from "./array/isSorted";
+import hasDuplicates from "./array/hasDuplicates";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -32,4 +33,6 @@ describe("Array:", function () {
   describe("allEqual:", allEqual);
 
   describe("isSorted:", isSorted);
+
+  describe("hasDuplicates:", hasDuplicates);
 });
