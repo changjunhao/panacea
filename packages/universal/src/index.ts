@@ -72,6 +72,7 @@ export { default as isAfterDate } from "./date/isAfterDate";
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";
 export { default as head } from "./array/head";
+export { default as last } from "./array/last";
 export { default as initializeArrayWithValues } from "./array/initializeArrayWithValues";
 export { default as includesAny } from "./array/includesAny";
 export { default as includesAll } from "./array/includesAll";
