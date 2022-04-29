@@ -9,6 +9,7 @@ import getSelectedText from "./bom/getSelectedText";
 import currentURL from "./bom/currentURL";
 import redirect from "./bom/redirect";
 import detectLanguage from "./bom/detectLanguage";
+import copyToClipboardAsync from "./bom/copyToClipboardAsync";
 
 describe("BOM:", function () {
   describe("supportsTouchEvents:", supportsTouchEvents);
@@ -32,4 +33,6 @@ describe("BOM:", function () {
   describe("redirect:", redirect);
 
   describe("detectLanguage:", detectLanguage);
+
+  describe("copyToClipboardAsync:", copyToClipboardAsync);
 });
