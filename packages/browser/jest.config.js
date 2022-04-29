@@ -36,6 +36,7 @@ module.exports = {
     "/src/bom/httpPut.ts",
     "/src/bom/httpPost.ts",
     "/src/bom/httpsRedirect.ts",
+    "/src/dom/observeMutations.ts",
   ],
 
   // Indicates which provider should be used to instrument code for coverage
