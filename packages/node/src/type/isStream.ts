@@ -4,7 +4,7 @@
  * @param value - The value to check.
  * @returns `true` if the given argument is a stream, `false` otherwise.
  * @example
- * ```javascript
+ * ```typescript
  * const fs = require('fs');
  *
  * isStream(fs.createReadStream('test.txt')); // true

@@ -4,8 +4,10 @@
  * @param selector - Stop at this element
  * @returns The matched elements
  * @example
+ * ```typescript
  * getParentsUntil(document.querySelector('#home-link'), 'header');
  * // [header, nav, ul, li]
+ * ```
  * @since 0.1.4
  * @public
  * @category DOM

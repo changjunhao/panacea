@@ -4,7 +4,7 @@
  * @param value - The value to check.
  * @returns If the given argument is a readable stream.
  * @example
- * ```javascript
+ * ```typescript
  * const fs = require('fs');
  *
  * isReadableStream(fs.createReadStream('test.txt')); // true

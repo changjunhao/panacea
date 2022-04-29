@@ -4,7 +4,7 @@
  * @param value - The value to check.
  * @returns If the given argument is a writable stream.
  * @example
- * ```javascript
+ * ```typescript
  * const fs = require('fs');
  *
  * isWritableStream(fs.createWriteStream('test.txt')); // true

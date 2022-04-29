@@ -4,7 +4,7 @@
  * @param value - The value to check.
  * @returns If `value` is a duplex stream.
  * @example
- * ```javascript
+ * ```typescript
  * const fs = require('fs');
  *
  * isDuplexStream(new Stream.Duplex()); // true
