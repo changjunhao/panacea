@@ -30,6 +30,7 @@ import getImages from "./dom/getImages";
 import getParentsUntil from "./dom/getParentsUntil";
 import formToObject from "./dom/formToObject";
 import show from "./dom/show";
+import hide from "./dom/hide";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -95,4 +96,6 @@ describe("string:", () => {
   describe("formToObject", formToObject);
 
   describe("show", show);
+
+  describe("hide", hide);
 });
