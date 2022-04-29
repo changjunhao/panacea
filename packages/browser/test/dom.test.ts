@@ -33,6 +33,7 @@ import getParentsUntil from "./dom/getParentsUntil";
 import formToObject from "./dom/formToObject";
 import show from "./dom/show";
 import hide from "./dom/hide";
+import arrayToHTMLList from "./dom/arrayToHTMLList";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -104,4 +105,6 @@ describe("string:", () => {
   describe("show", show);
 
   describe("hide", hide);
+
+  describe("arrayToHTMLList", arrayToHTMLList);
 });
