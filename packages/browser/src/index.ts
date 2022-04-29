@@ -41,6 +41,7 @@ export { default as formToObject } from "./dom/formToObject";
 export { default as show } from "./dom/show";
 export { default as hide } from "./dom/hide";
 export { default as observeMutations } from "./dom/observeMutations";
+export { default as copyToClipboard } from "./dom/copyToClipboard";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";
