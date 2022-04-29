@@ -35,6 +35,7 @@ export { default as nodeListToArray } from "./dom/nodeListToArray";
 export { default as getElementsBiggerThanViewport } from "./dom/getElementsBiggerThanViewport";
 export { default as getImages } from "./dom/getImages";
 export { default as getParentsUntil } from "./dom/getParentsUntil";
+export { default as formToObject } from "./dom/formToObject";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";
