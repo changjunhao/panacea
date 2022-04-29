@@ -29,6 +29,7 @@ import getElementsBiggerThanViewport from "./dom/getElementsBiggerThanViewport";
 import getImages from "./dom/getImages";
 import getParentsUntil from "./dom/getParentsUntil";
 import formToObject from "./dom/formToObject";
+import show from "./dom/show";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -92,4 +93,6 @@ describe("string:", () => {
   describe("getParentsUntil", getParentsUntil);
 
   describe("formToObject", formToObject);
+
+  describe("show", show);
 });
