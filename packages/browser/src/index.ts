@@ -27,6 +27,7 @@ export { default as findClosestAnchor } from "./dom/findClosestAnchor";
 export { default as on } from "./dom/on";
 export { default as off } from "./dom/off";
 export { default as listenOnce } from "./dom/listenOnce";
+export { default as removeEventListenerAll } from "./dom/removeEventListenerAll";
 export { default as hasClass } from "./dom/hasClass";
 export { default as onClickOutside } from "./dom/onClickOutside";
 export { default as getAncestors } from "./dom/getAncestors";
