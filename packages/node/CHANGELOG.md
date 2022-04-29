@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/changjunhao/panacea/compare/panacea-node@0.1.0...panacea-node@0.1.1) (2022-04-29)
+
+### Features
+
+- **universal:** add unescapeHTML ([a76c15c](https://github.com/changjunhao/panacea/commit/a76c15c09eeee38b3099b282a3c7b951d1084583))
+
 # [0.1.0-alpha.2](https://github.com/changjunhao/panacea/compare/panacea-node@0.1.0-alpha.1...panacea-node@0.1.0-alpha.2) (2022-04-22)
 
 ### Features

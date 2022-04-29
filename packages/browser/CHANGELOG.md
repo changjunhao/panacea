@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.4...panacea-browser@0.1.5) (2022-04-29)
+
+### Features
+
+- **browser:** add addEventListenerAll ([c9251f1](https://github.com/changjunhao/panacea/commit/c9251f185ba54bd6d773126c8d2e8400d5585051))
+- **browser:** add arrayToHTMLList ([32c71bb](https://github.com/changjunhao/panacea/commit/32c71bbf2c32f19f8937ee2655611f8b10c80245))
+- **browser:** add copyToClipboard-alpha ([e941d44](https://github.com/changjunhao/panacea/commit/e941d442940d68714863c32ef34ab9a8b2563cb7))
+- **browser:** add copyToClipboardAsync ([08d8175](https://github.com/changjunhao/panacea/commit/08d81759554e58e852c43f73976e4f7697001004))
+- **browser:** add formToObject ([b4e3144](https://github.com/changjunhao/panacea/commit/b4e314470e8b9e2d500a6c517bafb1d8acfc5118))
+- **browser:** add getSiblings ([bbe260a](https://github.com/changjunhao/panacea/commit/bbe260ab509978f8e9b896514ea02ffe3c6ea218))
+- **browser:** add hide ([9de3a3f](https://github.com/changjunhao/panacea/commit/9de3a3f6e5871aac49cadd23441e6196f8f2d28d))
+- **browser:** add observeMutations ([4b296e1](https://github.com/changjunhao/panacea/commit/4b296e1f0e4068c923bd9cc0493d6e3548afae45))
+- **browser:** add prefix-alpha ([40c7203](https://github.com/changjunhao/panacea/commit/40c7203c71907e91a9654c7e17c8d976e0c4a05f))
+- **browser:** add removeEventListenerAll ([5d70f14](https://github.com/changjunhao/panacea/commit/5d70f149b974047667752b234d94181934b9b79f))
+- **browser:** add show ([09697dc](https://github.com/changjunhao/panacea/commit/09697dc3dcfa507b7ab75ece9cd4d63a99f1daf6))
+- **universal:** add unescapeHTML ([a76c15c](https://github.com/changjunhao/panacea/commit/a76c15c09eeee38b3099b282a3c7b951d1084583))
+
 ## [0.1.4](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.3...panacea-browser@0.1.4) (2022-04-28)
 
 ### Features

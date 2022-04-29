@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.5...panacea-core@0.1.6) (2022-04-29)
+
+### Features
+
+- **universal:** add escapeHTML ([8141ee1](https://github.com/changjunhao/panacea/commit/8141ee1ce9338190e44fbd8b8f8076a22f18bd89))
+- **universal:** add toHSLArray ([5ce4a2c](https://github.com/changjunhao/panacea/commit/5ce4a2cbff155bde9280b459450bb44f737fbfc5))
+- **universal:** add toRGBArray ([2fdfaeb](https://github.com/changjunhao/panacea/commit/2fdfaeb8ac0f67a485523a20f2939cb9a106c12b))
+- **universal:** add unescapeHTML ([a76c15c](https://github.com/changjunhao/panacea/commit/a76c15c09eeee38b3099b282a3c7b951d1084583))
+
 ## [0.1.5](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.4...panacea-core@0.1.5) (2022-04-28)
 
 ### Features
