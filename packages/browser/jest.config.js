@@ -38,6 +38,7 @@ module.exports = {
     "/src/bom/httpsRedirect.ts",
     "/src/dom/observeMutations.ts",
     "/src/dom/copyToClipboard.ts",
+    "/src/dom/prefix.ts",
   ],
 
   // Indicates which provider should be used to instrument code for coverage
