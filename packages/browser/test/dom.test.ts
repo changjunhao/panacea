@@ -21,6 +21,7 @@ import off from "./dom/off";
 import on from "./dom/on";
 import listenOnce from "./dom/listenOnce";
 import removeEventListenerAll from "./dom/removeEventListenerAll";
+import addEventListenerAll from "./dom/addEventListenerAll";
 import hasClass from "./dom/hasClass";
 import onClickOutside from "./dom/onClickOutside";
 import getAncestors from "./dom/getAncestors";
@@ -79,6 +80,8 @@ describe("string:", () => {
   describe("on", on);
 
   describe("removeEventListenerAll:", removeEventListenerAll);
+
+  describe("addEventListenerAll:", addEventListenerAll);
 
   describe("hasClass", hasClass);
 
