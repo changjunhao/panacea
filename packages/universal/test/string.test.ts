@@ -27,6 +27,7 @@ import compactWhitespace from "./string/compactWhitespace";
 import toCharArray from "./string/toCharArray";
 import getBaseURL from "./string/getBaseURL";
 import toRGBArray from "./string/toRGBArray";
+import toHSLArray from "./string/toHSLArray";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -86,4 +87,6 @@ describe("string:", () => {
   describe("getBaseURL", getBaseURL);
 
   describe("toRGBArray", toRGBArray);
+
+  describe("toHSLArray", toHSLArray);
 });

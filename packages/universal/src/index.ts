@@ -52,6 +52,7 @@ export { default as compactWhitespace } from "./string/compactWhitespace";
 export { default as toCharArray } from "./string/toCharArray";
 export { default as getBaseURL } from "./string/getBaseURL";
 export { default as toRGBArray } from "./string/toRGBArray";
+export { default as toHSLArray } from "./string/toHSLArray";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 export { default as when } from "./function/when";
