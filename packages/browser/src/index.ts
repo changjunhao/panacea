@@ -67,6 +67,7 @@ export { default as httpPost } from "./bom/httpPost";
 export { default as httpsRedirect } from "./bom/httpsRedirect";
 export { default as copyToClipboardAsync } from "./bom/copyToClipboardAsync";
 export { default as getURLParameters } from "./bom/getURLParameters";
+export { default as runAsync } from "./bom/runAsync";
 
 export { default as hashBrowser } from "./crypto/hashBrowser";
 

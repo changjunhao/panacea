@@ -39,6 +39,7 @@ module.exports = {
     "/src/dom/observeMutations.ts",
     "/src/dom/copyToClipboard.ts",
     "/src/dom/prefix.ts",
+    "/src/bom/runAsync.ts",
   ],
 
   // Indicates which provider should be used to instrument code for coverage
