@@ -28,6 +28,7 @@ import compactWhitespace from "./string/compactWhitespace";
 import toCharArray from "./string/toCharArray";
 import getBaseURL from "./string/getBaseURL";
 import toRGBArray from "./string/toRGBArray";
+import toRGBObject from "./string/toRGBObject";
 import toHSLArray from "./string/toHSLArray";
 import toHSLObject from "./string/toHSLObject";
 import unescapeHTML from "./string/unescapeHTML";
@@ -93,6 +94,8 @@ describe("string:", () => {
   describe("getBaseURL", getBaseURL);
 
   describe("toRGBArray", toRGBArray);
+
+  describe("toRGBObject", toRGBObject);
 
   describe("toHSLArray", toHSLArray);
 
