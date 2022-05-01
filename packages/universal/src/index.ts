@@ -92,3 +92,5 @@ export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as isPrime } from "./math/isPrime";
 
 export { default as caesarCipher } from "./algorithm/caesarCipher";
+
+export { default as createEventHub } from "./event/createEventHub";
