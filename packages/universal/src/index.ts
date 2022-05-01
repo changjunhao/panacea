@@ -31,6 +31,7 @@ export { default as truncateStringAtWhitespace } from "./string/truncateStringAt
 export { default as colorize } from "./string/colorize";
 export type { ColorizeRecord } from "./string/colorize";
 export { default as serializeCookie } from "./string/serializeCookie";
+export { default as parseCookie } from "./string/parseCookie";
 export { default as indentString } from "./string/indentString";
 export { default as fromCamelCase } from "./string/fromCamelCase";
 export { default as formatNumber } from "./string/formatNumber";

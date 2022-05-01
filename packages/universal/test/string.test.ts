@@ -6,6 +6,7 @@ import truncateString from "./string/truncateString";
 import truncateStringAtWhitespace from "./string/truncateStringAtWhitespace";
 import colorize from "./string/colorize";
 import serializeCookie from "./string/serializeCookie";
+import parseCookie from "./string/parseCookie";
 import indentString from "./string/indentString";
 import fromCamelCase from "./string/fromCamelCase";
 import formatNumber from "./string/formatNumber";
@@ -45,6 +46,8 @@ describe("string:", () => {
   describe("colorize:", colorize);
 
   describe("serializeCookie", serializeCookie);
+
+  describe("parseCookie", parseCookie);
 
   describe("indentString", indentString);
 
