@@ -37,6 +37,7 @@ import arrayToHTMLList from "./dom/arrayToHTMLList";
 import getSiblings from "./dom/getSiblings";
 import renderElement from "./dom/renderElement";
 import serializeForm from "./dom/serializeForm";
+import addMultipleListeners from "./dom/addMultipleListeners";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -86,6 +87,8 @@ describe("string:", () => {
   describe("removeEventListenerAll:", removeEventListenerAll);
 
   describe("addEventListenerAll:", addEventListenerAll);
+
+  describe("addMultipleListeners:", addMultipleListeners);
 
   describe("hasClass", hasClass);
 
