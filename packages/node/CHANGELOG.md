@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/changjunhao/panacea/compare/panacea-node@0.1.1...panacea-node@0.1.2) (2022-05-01)
+
+### Features
+
+- **node:** add getCmdArgs ([4d5567d](https://github.com/changjunhao/panacea/commit/4d5567de6f9596efa4fd5e7d97dee357f09a7798))
+
 ## [0.1.1](https://github.com/changjunhao/panacea/compare/panacea-node@0.1.0...panacea-node@0.1.1) (2022-04-29)
 
 ### Features

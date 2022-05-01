@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.6...panacea-core@0.1.7) (2022-05-01)
+
+### Features
+
+- **universal:** add changeLightness ([cf36771](https://github.com/changjunhao/panacea/commit/cf367718efd200eac55acfc623a4898fac27890b))
+- **universal:** add createEventHub ([0059d04](https://github.com/changjunhao/panacea/commit/0059d04400d30e2aea4960a68f1dbf60652d7d1f))
+- **universal:** add getDistance ([43a440b](https://github.com/changjunhao/panacea/commit/43a440bdd82d90105b79612a7049950c4655fb66))
+- **universal:** add parseCookie ([5d9d370](https://github.com/changjunhao/panacea/commit/5d9d37057256bebdee8e50788e49f2958edf77cd))
+- **universal:** add toHSLObject ([72aaf3d](https://github.com/changjunhao/panacea/commit/72aaf3d2f657b8f23e496c17d32477166651494e))
+- **universal:** add toRGBObject ([ebb4043](https://github.com/changjunhao/panacea/commit/ebb404312922e81895bc4bc2040c6f0ee442e9e1))
+
 ## [0.1.6](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.5...panacea-core@0.1.6) (2022-04-29)
 
 ### Features

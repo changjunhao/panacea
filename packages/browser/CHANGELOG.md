@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.5...panacea-browser@0.1.6) (2022-05-01)
+
+### Features
+
+- **browser:** add addMultipleListeners ([727f8fe](https://github.com/changjunhao/panacea/commit/727f8fe6f2856b9c138eb26935e689740dc2ba6a))
+- **browser:** add getURLParameters ([5e217e3](https://github.com/changjunhao/panacea/commit/5e217e34b0cb3f691fa0dfdc5c2ec9c0d331e1ed))
+- **browser:** add renderElement ([a123abb](https://github.com/changjunhao/panacea/commit/a123abb6ab67dde2ec0b6fcc2d31121d63c97b89))
+- **browser:** add runAsync ([d55b5fd](https://github.com/changjunhao/panacea/commit/d55b5fd527c579aef60d209cadacbbac87110421))
+- **browser:** add serializeForm ([1a6790d](https://github.com/changjunhao/panacea/commit/1a6790de90ebf3d710f56306b93858f87d10098b))
+
 ## [0.1.5](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.4...panacea-browser@0.1.5) (2022-04-29)
 
 ### Features
