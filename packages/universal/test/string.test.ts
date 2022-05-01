@@ -29,6 +29,7 @@ import toCharArray from "./string/toCharArray";
 import getBaseURL from "./string/getBaseURL";
 import toRGBArray from "./string/toRGBArray";
 import toHSLArray from "./string/toHSLArray";
+import toHSLObject from "./string/toHSLObject";
 import unescapeHTML from "./string/unescapeHTML";
 import escapeHTML from "./string/escapeHTML";
 
@@ -94,6 +95,8 @@ describe("string:", () => {
   describe("toRGBArray", toRGBArray);
 
   describe("toHSLArray", toHSLArray);
+
+  describe("toHSLObject", toHSLObject);
 
   describe("unescapeHTML", unescapeHTML);
 
