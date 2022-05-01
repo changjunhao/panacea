@@ -36,6 +36,7 @@ import hide from "./dom/hide";
 import arrayToHTMLList from "./dom/arrayToHTMLList";
 import getSiblings from "./dom/getSiblings";
 import renderElement from "./dom/renderElement";
+import serializeForm from "./dom/serializeForm";
 
 describe("string:", () => {
   describe("isBrowserTabFocused:", isBrowserTabFocused);
@@ -113,4 +114,6 @@ describe("string:", () => {
   describe("getSiblings", getSiblings);
 
   describe("renderElement", renderElement);
+
+  describe("serializeForm", serializeForm);
 });
