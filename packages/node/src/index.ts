@@ -16,5 +16,6 @@ export { default as readFileLines } from "./fs/readFileLines";
 export { default as JSONToFile } from "./fs/JSONToFile";
 
 export { default as hasFlags } from "./process/hasFlags";
+export { default as getCmdArgs } from "./process/getCmdArgs";
 
 export { default as hashNode } from "./crypto/hashNode";
