@@ -45,6 +45,7 @@ export { default as copyToClipboard } from "./dom/copyToClipboard";
 export { default as prefix } from "./dom/prefix";
 export { default as arrayToHTMLList } from "./dom/arrayToHTMLList";
 export { default as getSiblings } from "./dom/getSiblings";
+export { default as renderElement } from "./dom/renderElement";
 
 export { default as supportsTouchEvents } from "./bom/supportsTouchEvents";
 export { default as isSessionStorageEnabled } from "./bom/isSessionStorageEnabled";

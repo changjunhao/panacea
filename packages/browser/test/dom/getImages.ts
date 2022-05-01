@@ -13,5 +13,6 @@ export default () => {
       "https://example.com/image1.png",
       "https://example.com/image.png",
     ]);
+    document.body.innerHTML = "";
   });
 };
