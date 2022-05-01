@@ -31,6 +31,7 @@ import toRGBArray from "./string/toRGBArray";
 import toRGBObject from "./string/toRGBObject";
 import toHSLArray from "./string/toHSLArray";
 import toHSLObject from "./string/toHSLObject";
+import changeLightness from "./string/changeLightness";
 import unescapeHTML from "./string/unescapeHTML";
 import escapeHTML from "./string/escapeHTML";
 
@@ -100,6 +101,8 @@ describe("string:", () => {
   describe("toHSLArray", toHSLArray);
 
   describe("toHSLObject", toHSLObject);
+
+  describe("changeLightness", changeLightness);
 
   describe("unescapeHTML", unescapeHTML);
 
