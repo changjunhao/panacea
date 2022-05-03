@@ -11,6 +11,7 @@ import allEqual from "./array/allEqual";
 import isSorted from "./array/isSorted";
 import hasDuplicates from "./array/hasDuplicates";
 import uniqueElements from "./array/uniqueElements";
+import sortedLastIndex from "./array/sortedLastIndex";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -38,4 +39,6 @@ describe("Array:", function () {
   describe("hasDuplicates:", hasDuplicates);
 
   describe("uniqueElements:", uniqueElements);
+
+  describe("sortedLastIndex:", sortedLastIndex);
 });
