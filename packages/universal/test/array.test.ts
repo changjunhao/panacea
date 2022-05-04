@@ -12,6 +12,7 @@ import isSorted from "./array/isSorted";
 import hasDuplicates from "./array/hasDuplicates";
 import uniqueElements from "./array/uniqueElements";
 import sortedLastIndex from "./array/sortedLastIndex";
+import subSet from "./array/subSet";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -41,4 +42,6 @@ describe("Array:", function () {
   describe("uniqueElements:", uniqueElements);
 
   describe("sortedLastIndex:", sortedLastIndex);
+
+  describe("subSet:", subSet);
 });
