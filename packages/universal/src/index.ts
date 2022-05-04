@@ -93,6 +93,7 @@ export { default as hasDuplicates } from "./array/hasDuplicates";
 export { default as uniqueElements } from "./array/uniqueElements";
 export { default as sortedLastIndex } from "./array/sortedLastIndex";
 export { default as subSet } from "./array/subSet";
+export { default as superSet } from "./array/superSet";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as isPrime } from "./math/isPrime";
