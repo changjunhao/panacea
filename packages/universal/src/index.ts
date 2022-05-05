@@ -103,11 +103,12 @@ export { default as intersection } from "./array/intersection";
 export { default as initialize2DArray } from "./array/initialize2DArray";
 export { default as everyNth } from "./array/everyNth";
 export { default as countOccurrences } from "./array/countOccurrences";
-export { default as sum } from "./array/sum";
 export { default as similarity } from "./array/similarity";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as isPrime } from "./math/isPrime";
+export { default as sum } from "./math/sum";
+export { default as prod } from "./math/prod";
 
 export { default as caesarCipher } from "./algorithm/caesarCipher";
 export { default as getDistance } from "./algorithm/getDistance";

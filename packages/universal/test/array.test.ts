@@ -22,7 +22,6 @@ import intersection from "./array/intersection";
 import initialize2DArray from "./array/initialize2DArray";
 import everyNth from "./array/everyNth";
 import countOccurrences from "./array/countOccurrences";
-import sum from "./array/sum";
 import similarity from "./array/similarity";
 
 describe("Array:", function () {
@@ -73,8 +72,6 @@ describe("Array:", function () {
   describe("everyNth:", everyNth);
 
   describe("countOccurrences:", countOccurrences);
-
-  describe("sum:", sum);
 
   describe("similarity:", similarity);
 });

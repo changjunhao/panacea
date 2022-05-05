@@ -8,7 +8,7 @@
  * sum(...[1, 2, 3, 4]); // 10
  * ```
  * @public
- * @category Array
+ * @category Math
  * @since 0.1.7
  */
 const sum = (...arr: number[]) => [...arr].reduce((acc, val) => acc + val, 0);
