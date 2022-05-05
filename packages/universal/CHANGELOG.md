@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.7...panacea-core@0.1.8) (2022-05-05)
+
+### Features
+
+- **universal:** add collectInto ([e665189](https://github.com/changjunhao/panacea/commit/e665189a2a1af2bcfe98868fac8b23d27e7a6460))
+- **universal:** add compact ([e74526b](https://github.com/changjunhao/panacea/commit/e74526b1ba6f82e0ce475cb546655e1d427a6606))
+- **universal:** add const lastDateOfMonth = (date = new Date()) => { ([a2038af](https://github.com/changjunhao/panacea/commit/a2038af6afe4a79d0d9d3c3f7486bfc903fab1e9))
+- **universal:** add countOccurrences ([b58b375](https://github.com/changjunhao/panacea/commit/b58b375a093c44074674a48eda53086d546a2fb7))
+- **universal:** add daysInMonth ([0928d16](https://github.com/changjunhao/panacea/commit/0928d167a31a6ef92003b4276e96b721757d71ed))
+- **universal:** add everyNth ([2ada837](https://github.com/changjunhao/panacea/commit/2ada837b77ed71082f5368b612cbe210b6fea84c))
+- **universal:** add fromTimestamp ([126f95d](https://github.com/changjunhao/panacea/commit/126f95d62df2a2adf58d448919c069347bcc9026))
+- **universal:** add initialize2DArray ([9e4f16c](https://github.com/changjunhao/panacea/commit/9e4f16c3fb8a570a72ad71abbd23c8d17349f660))
+- **universal:** add intersection ([89d1d6e](https://github.com/changjunhao/panacea/commit/89d1d6ea6350b6fd842168c61bc3198138b8068a))
+- **universal:** add isLeapYear ([1d04002](https://github.com/changjunhao/panacea/commit/1d04002e97c985ecf0ef8373b88e74e5df25c33b))
+- **universal:** add isSameDate ([c0659da](https://github.com/changjunhao/panacea/commit/c0659da7ae97473232f1e01aba4c906bbd2e5aca))
+- **universal:** add isWeekday ([4c7bd6f](https://github.com/changjunhao/panacea/commit/4c7bd6f715c8e95889b18815547bc1f8fa182010))
+- **universal:** add isWeekend ([d1b134d](https://github.com/changjunhao/panacea/commit/d1b134d1f87371273b72f9d1c70a4df1512def5c))
+- **universal:** add median ([c317f6e](https://github.com/changjunhao/panacea/commit/c317f6e78c5e9445917eb0a3cafeabaf68ea049e))
+- **universal:** add nthElement ([958afe6](https://github.com/changjunhao/panacea/commit/958afe6a460710487f70583edb4fd5d1cb031675))
+- **universal:** add prod ([3e52226](https://github.com/changjunhao/panacea/commit/3e52226c4e66f13c882d88dd61d9bf17dc2f95db))
+- **universal:** add similarity ([8e9aa70](https://github.com/changjunhao/panacea/commit/8e9aa7080d8b95d974887b1be488fb57c7f5d26d))
+- **universal:** add sortedIndex ([c6b93b0](https://github.com/changjunhao/panacea/commit/c6b93b027ac674b17fbab50c2ed89ccb65e3cca9))
+- **universal:** add sortedLastIndex ([6905e11](https://github.com/changjunhao/panacea/commit/6905e11d8c9e8621f6ebad33b2442f58a527d137))
+- **universal:** add subSet ([904dcb6](https://github.com/changjunhao/panacea/commit/904dcb60519600febb8363eaf8060d29288d3512))
+- **universal:** add sum ([e99d5d3](https://github.com/changjunhao/panacea/commit/e99d5d3175a2b94889445a3ee40e8b37591353ff))
+- **universal:** add superSet ([ba930f0](https://github.com/changjunhao/panacea/commit/ba930f08ca96b89419b5b7a7eb1d83e55ff6733b))
+- **universal:** add without ([37ae675](https://github.com/changjunhao/panacea/commit/37ae675f65670225098e8f18ab4cc7d0764a7313))
+
 ## [0.1.7](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.6...panacea-core@0.1.7) (2022-05-01)
 
 ### Features
