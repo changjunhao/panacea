@@ -20,6 +20,7 @@ import sortedIndex from "./array/sortedIndex";
 import nthElement from "./array/nthElement";
 import intersection from "./array/intersection";
 import initialize2DArray from "./array/initialize2DArray";
+import everyNth from "./array/everyNth";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -65,4 +66,6 @@ describe("Array:", function () {
   describe("intersection:", intersection);
 
   describe("initialize2DArray:", initialize2DArray);
+
+  describe("everyNth:", everyNth);
 });
