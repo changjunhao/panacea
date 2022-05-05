@@ -9,7 +9,7 @@
  * ```
  * @public
  * @category Array
- * @since 0.1.7
+ * @since 0.1.8
  */
 const intersection = (
   a: (string | number | boolean)[],

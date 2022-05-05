@@ -10,7 +10,7 @@
  * ```
  * @public
  * @category Array
- * @since 0.1.7
+ * @since 0.1.8
  */
 const nthElement = (arr: any[], n = 0) =>
   (n === -1 ? arr.slice(n) : arr.slice(n, n + 1))[0];

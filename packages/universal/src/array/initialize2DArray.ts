@@ -10,7 +10,7 @@
  * ```
  * @public
  * @category Array
- * @since 0.1.7
+ * @since 0.1.8
  */
 const initialize2DArray = (w: number, h: number, val: any = null): any[][] =>
   Array.from({ length: h }).map(() => Array.from({ length: w }).fill(val));

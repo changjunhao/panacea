@@ -9,7 +9,7 @@
  * ```
  * @public
  * @category Array
- * @since 0.1.7
+ * @since 0.1.8
  */
 function countOccurrences<T>(arr: T[], val: T): number {
   return arr.reduce((a, v) => (v === val ? a + 1 : a), 0);

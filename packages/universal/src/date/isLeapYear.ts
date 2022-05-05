@@ -8,7 +8,7 @@
  * isLeapYear(2020); // true
  * ```
  * @public
- * @since 0.1.7
+ * @since 0.1.8
  * @category Date
  */
 const isLeapYear = (year: number) => new Date(year, 1, 29).getMonth() === 1;

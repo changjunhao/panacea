@@ -7,7 +7,7 @@
  * lastDateOfMonth(new Date('2015-08-11')); // '2015-08-30'
  * ```
  * @category Date
- * @since 0.1.7
+ * @since 0.1.8
  * @public
  */
 const lastDateOfMonth = (date = new Date()) => {

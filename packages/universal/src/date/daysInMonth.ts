@@ -9,7 +9,7 @@
  * daysInMonth(2024, 2)); // 29
  * ```
  * @public
- * @since 0.1.7
+ * @since 0.1.8
  * @category Date
  */
 const daysInMonth = (year: number, month: number) =>

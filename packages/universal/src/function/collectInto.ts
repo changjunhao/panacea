@@ -12,7 +12,7 @@
  * ```
  * @public
  * @category Function
- * @since 0.1.7
+ * @since 0.1.8
  */
 const collectInto =
   (fn: (args: any[]) => any) =>

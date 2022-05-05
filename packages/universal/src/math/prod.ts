@@ -9,7 +9,7 @@
  * ```
  * @public
  * @category Math
- * @since 0.1.7
+ * @since 0.1.8
  */
 const prod = (...arr: number[]) => [...arr].reduce((acc, val) => acc * val, 1);
 

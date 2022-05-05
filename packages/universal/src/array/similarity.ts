@@ -9,7 +9,7 @@
  * ```
  * @public
  * @category Array
- * @since 0.1.7
+ * @since 0.1.8
  */
 function similarity<T>(arr: T[], values: T[]): T[] {
   return arr.filter((v) => values.includes(v));

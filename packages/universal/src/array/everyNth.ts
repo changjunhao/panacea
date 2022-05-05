@@ -9,7 +9,7 @@
  * ```
  * @public
  * @category Array
- * @since 0.1.7
+ * @since 0.1.8
  */
 const everyNth = (arr: any[], nth: number) =>
   arr.filter((e, i) => i % nth === nth - 1);

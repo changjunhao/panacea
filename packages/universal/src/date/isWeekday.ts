@@ -9,7 +9,7 @@
  * isWeekday(new Date(2019, 6, 19)); // true
  * ```
  * @category Date
- * @since 0.1.7
+ * @since 0.1.8
  */
 const isWeekday = (d = new Date()) => d.getDay() % 6 !== 0;
 

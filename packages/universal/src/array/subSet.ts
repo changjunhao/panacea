@@ -10,7 +10,7 @@
  * ```
  * @public
  * @category Array
- * @since 0.1.7
+ * @since 0.1.8
  */
 const subSet = (a: Iterable<number | string>, b: Iterable<number | string>) => {
   const sA = new Set(a);

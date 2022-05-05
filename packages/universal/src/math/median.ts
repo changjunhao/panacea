@@ -8,7 +8,7 @@
  * ```
  * @public
  * @category Math
- * @since 0.1.7
+ * @since 0.1.8
  */
 const median = (arr: number[]) => {
   const mid = Math.floor(arr.length / 2);

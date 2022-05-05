@@ -9,7 +9,7 @@
  * ```
  * @category Array
  * @public
- * @since 0.1.7
+ * @since 0.1.8
  */
 const compact = (arr: any[]) => arr.filter(Boolean);
 

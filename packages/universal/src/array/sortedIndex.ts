@@ -10,7 +10,7 @@
  * ```
  * @public
  * @category Array
- * @since 0.1.7
+ * @since 0.1.8
  */
 const sortedIndex = (arr: number[], n: number) => {
   const isDescending = arr[0] > arr[arr.length - 1];
