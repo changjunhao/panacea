@@ -21,6 +21,7 @@ import nthElement from "./array/nthElement";
 import intersection from "./array/intersection";
 import initialize2DArray from "./array/initialize2DArray";
 import everyNth from "./array/everyNth";
+import countOccurrences from "./array/countOccurrences";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -68,4 +69,6 @@ describe("Array:", function () {
   describe("initialize2DArray:", initialize2DArray);
 
   describe("everyNth:", everyNth);
+
+  describe("countOccurrences:", countOccurrences);
 });
