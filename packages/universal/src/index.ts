@@ -100,6 +100,7 @@ export { default as without } from "./array/without";
 export { default as sortedIndex } from "./array/sortedIndex";
 export { default as nthElement } from "./array/nthElement";
 export { default as intersection } from "./array/intersection";
+export { default as initialize2DArray } from "./array/initialize2DArray";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as isPrime } from "./math/isPrime";
