@@ -18,6 +18,7 @@ import median from "./array/median";
 import without from "./array/without";
 import sortedIndex from "./array/sortedIndex";
 import nthElement from "./array/nthElement";
+import intersection from "./array/intersection";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -59,4 +60,6 @@ describe("Array:", function () {
   describe("sortedIndex:", sortedIndex);
 
   describe("nthElement:", nthElement);
+
+  describe("intersection:", intersection);
 });
