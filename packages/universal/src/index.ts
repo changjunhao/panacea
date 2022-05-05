@@ -95,7 +95,6 @@ export { default as uniqueElements } from "./array/uniqueElements";
 export { default as sortedLastIndex } from "./array/sortedLastIndex";
 export { default as subSet } from "./array/subSet";
 export { default as superSet } from "./array/superSet";
-export { default as median } from "./array/median";
 export { default as without } from "./array/without";
 export { default as sortedIndex } from "./array/sortedIndex";
 export { default as nthElement } from "./array/nthElement";
@@ -104,9 +103,11 @@ export { default as initialize2DArray } from "./array/initialize2DArray";
 export { default as everyNth } from "./array/everyNth";
 export { default as countOccurrences } from "./array/countOccurrences";
 export { default as similarity } from "./array/similarity";
+export { default as compact } from "./array/compact";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as isPrime } from "./math/isPrime";
+export { default as median } from "./math/median";
 export { default as sum } from "./math/sum";
 export { default as prod } from "./math/prod";
 

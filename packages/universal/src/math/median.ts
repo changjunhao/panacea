@@ -7,7 +7,7 @@
  * median([5, 6, 50, 1, -5]); // 5
  * ```
  * @public
- * @category Array
+ * @category Math
  * @since 0.1.7
  */
 const median = (arr: number[]) => {

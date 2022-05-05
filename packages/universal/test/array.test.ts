@@ -14,7 +14,6 @@ import uniqueElements from "./array/uniqueElements";
 import sortedLastIndex from "./array/sortedLastIndex";
 import subSet from "./array/subSet";
 import superSet from "./array/superSet";
-import median from "./array/median";
 import without from "./array/without";
 import sortedIndex from "./array/sortedIndex";
 import nthElement from "./array/nthElement";
@@ -23,6 +22,7 @@ import initialize2DArray from "./array/initialize2DArray";
 import everyNth from "./array/everyNth";
 import countOccurrences from "./array/countOccurrences";
 import similarity from "./array/similarity";
+import compact from "./array/compact";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -57,8 +57,6 @@ describe("Array:", function () {
 
   describe("superSet:", superSet);
 
-  describe("median:", median);
-
   describe("without:", without);
 
   describe("sortedIndex:", sortedIndex);
@@ -74,4 +72,6 @@ describe("Array:", function () {
   describe("countOccurrences:", countOccurrences);
 
   describe("similarity:", similarity);
+
+  describe("compact:", compact);
 });
