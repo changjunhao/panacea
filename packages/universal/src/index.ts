@@ -80,6 +80,7 @@ export { default as isBeforeDate } from "./date/isBeforeDate";
 export { default as isAfterDate } from "./date/isAfterDate";
 export { default as isWeekend } from "./date/isWeekend";
 export { default as isWeekday } from "./date/isWeekday";
+export { default as isLeapYear } from "./date/isLeapYear";
 
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";
