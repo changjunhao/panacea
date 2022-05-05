@@ -1,6 +1,7 @@
 import isBetweenDates from "./date/isBetweenDates";
 import isBeforeDate from "./date/isBeforeDate";
 import isAfterDate from "./date/isAfterDate";
+import isWeekend from "./date/isWeekend";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -8,4 +9,6 @@ describe("Date:", function () {
   describe("isBeforeDate:", isBeforeDate);
 
   describe("isAfterDate:", isAfterDate);
+
+  describe("isWeekend:", isWeekend);
 });
