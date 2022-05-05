@@ -16,6 +16,7 @@ import subSet from "./array/subSet";
 import superSet from "./array/superSet";
 import median from "./array/median";
 import without from "./array/without";
+import sortedIndex from "./array/sortedIndex";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -53,4 +54,6 @@ describe("Array:", function () {
   describe("median:", median);
 
   describe("without:", without);
+
+  describe("sortedIndex:", sortedIndex);
 });

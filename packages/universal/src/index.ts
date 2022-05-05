@@ -97,6 +97,7 @@ export { default as subSet } from "./array/subSet";
 export { default as superSet } from "./array/superSet";
 export { default as median } from "./array/median";
 export { default as without } from "./array/without";
+export { default as sortedIndex } from "./array/sortedIndex";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as isPrime } from "./math/isPrime";
