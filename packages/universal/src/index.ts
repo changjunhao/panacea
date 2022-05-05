@@ -82,6 +82,7 @@ export { default as isWeekend } from "./date/isWeekend";
 export { default as isWeekday } from "./date/isWeekday";
 export { default as isLeapYear } from "./date/isLeapYear";
 export { default as isSameDate } from "./date/isSameDate";
+export { default as fromTimestamp } from "./date/fromTimestamp";
 
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";

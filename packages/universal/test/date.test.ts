@@ -5,6 +5,7 @@ import isWeekend from "./date/isWeekend";
 import isWeekday from "./date/isWeekday";
 import isLeapYear from "./date/isLeapYear";
 import isSameDate from "./date/isSameDate";
+import fromTimestamp from "./date/fromTimestamp";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -20,4 +21,6 @@ describe("Date:", function () {
   describe("isLeapYear:", isLeapYear);
 
   describe("isSameDate:", isSameDate);
+
+  describe("fromTimestamp:", fromTimestamp);
 });
