@@ -6,6 +6,7 @@ import isWeekday from "./date/isWeekday";
 import isLeapYear from "./date/isLeapYear";
 import isSameDate from "./date/isSameDate";
 import fromTimestamp from "./date/fromTimestamp";
+import lastDateOfMonth from "./date/lastDateOfMonth";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -23,4 +24,6 @@ describe("Date:", function () {
   describe("isSameDate:", isSameDate);
 
   describe("fromTimestamp:", fromTimestamp);
+
+  describe("lastDateOfMonth:", lastDateOfMonth);
 });
