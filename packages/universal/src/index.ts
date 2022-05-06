@@ -86,6 +86,7 @@ export { default as fromTimestamp } from "./date/fromTimestamp";
 export { default as lastDateOfMonth } from "./date/lastDateOfMonth";
 export { default as daysInMonth } from "./date/daysInMonth";
 export { default as getSecondsDiffBetweenDates } from "./date/getSecondsDiffBetweenDates";
+export { default as getMinutesDiffBetweenDates } from "./date/getMinutesDiffBetweenDates";
 
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";

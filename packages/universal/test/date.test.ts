@@ -9,6 +9,7 @@ import fromTimestamp from "./date/fromTimestamp";
 import lastDateOfMonth from "./date/lastDateOfMonth";
 import daysInMonth from "./date/daysInMonth";
 import getSecondsDiffBetweenDates from "./date/getSecondsDiffBetweenDates";
+import getMinutesDiffBetweenDates from "./date/getMinutesDiffBetweenDates";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -32,4 +33,6 @@ describe("Date:", function () {
   describe("daysInMonth:", daysInMonth);
 
   describe("getSecondsDiffBetweenDates:", getSecondsDiffBetweenDates);
+
+  describe("getMinutesDiffBetweenDates:", getMinutesDiffBetweenDates);
 });
