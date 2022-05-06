@@ -12,6 +12,7 @@ import getSecondsDiffBetweenDates from "./date/getSecondsDiffBetweenDates";
 import getMinutesDiffBetweenDates from "./date/getMinutesDiffBetweenDates";
 import getHoursDiffBetweenDates from "./date/getHoursDiffBetweenDates";
 import getDaysDiffBetweenDates from "./date/getDaysDiffBetweenDates";
+import getMeridiemSuffixOfInteger from "./date/getMeridiemSuffixOfInteger";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -41,4 +42,6 @@ describe("Date:", function () {
   describe("getHoursDiffBetweenDates:", getHoursDiffBetweenDates);
 
   describe("getDaysDiffBetweenDates:", getDaysDiffBetweenDates);
+
+  describe("getMeridiemSuffixOfInteger:", getMeridiemSuffixOfInteger);
 });
