@@ -4,6 +4,7 @@ import unary from "./function/unary";
 import collectInto from "./function/collectInto";
 import timeTaken from "./function/timeTaken";
 import negate from "./function/negate";
+import either from "./function/either";
 
 describe("function:", () => {
   describe("coalesceFactory", coalesceFactory);
@@ -17,4 +18,6 @@ describe("function:", () => {
   describe("timeTaken", timeTaken);
 
   describe("negate", negate);
+
+  describe("either", either);
 });
