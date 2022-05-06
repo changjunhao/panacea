@@ -4,6 +4,7 @@ import isSameOrigin from "./object/isSameOrigin";
 import checkProp from "./object/checkProp";
 import objectToPairs from "./object/objectToPairs";
 import matches from "./object/matches";
+import isDeepFrozen from "./object/isDeepFrozen";
 
 describe("object:", function () {
   describe("equals:", equals);
@@ -17,4 +18,6 @@ describe("object:", function () {
   describe("objectToPairs:", objectToPairs);
 
   describe("matches:", matches);
+
+  describe("isDeepFrozen:", isDeepFrozen);
 });
