@@ -126,6 +126,7 @@ export { default as compact } from "./array/compact";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as radsToDegrees } from "./math/radsToDegrees";
+export { default as nthRoot } from "./math/nthRoot";
 export { default as isPrime } from "./math/isPrime";
 export { default as median } from "./math/median";
 export { default as sum } from "./math/sum";

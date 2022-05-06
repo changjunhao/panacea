@@ -1,5 +1,6 @@
 import toSafeInteger from "./math/toSafeInteger";
 import radsToDegrees from "./math/radsToDegrees";
+import nthRoot from "./math/nthRoot";
 import isPrime from "./math/isPrime";
 import median from "./math/median";
 import sum from "./math/sum";
@@ -9,6 +10,8 @@ describe("Math:", function () {
   describe("toSafeInteger:", toSafeInteger);
 
   describe("radsToDegrees:", radsToDegrees);
+
+  describe("nthRoot:", nthRoot);
 
   describe("isPrime:", isPrime);
 
