@@ -30,6 +30,7 @@ module.exports = {
     "/node_modules/",
     "/src/date/yesterday.ts",
     "/src/date/tomorrow.ts",
+    "/src/date/getTimestamp.ts",
   ],
 
   // Indicates which provider should be used to instrument code for coverage
