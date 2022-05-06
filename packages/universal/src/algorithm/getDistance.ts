@@ -1,15 +1,8 @@
+import degreesToRads from "../math/degreesToRads";
 /**
  * EARTH RADIUS
  */
 const EARTH_RADIUS = 6378136.49;
-
-/**
- * Convert to radians
- * @param d
- */
-function convertToRadians(d: number) {
-  return (d * Math.PI) / 180.0;
-}
 
 /**
  * Object type representing latitude and longitude
@@ -40,12 +33,12 @@ export type Location = {
 function getDistance(location1: Location, location2: Location) {
   const { latitude: lat1, longitude: lng1 } = location1;
   const { latitude: lat2, longitude: lng2 } = location2;
-  const radLatFrom = convertToRadians(lat1);
-  const radLatTo = convertToRadians(lat2);
+  const radLatFrom = degreesToRads(lat1);
+  const radLatTo = degreesToRads(lat2);
   // 表示纬度差
-  const a = convertToRadians(lat1) - convertToRadians(lat2);
+  const a = degreesToRads(lat1) - degreesToRads(lat2);
   // 表示经度差
-  const b = convertToRadians(lng1) - convertToRadians(lng2);
+  const b = degreesToRads(lng1) - degreesToRads(lng2);
   let distance =
     2 *
     Math.asin(
