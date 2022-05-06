@@ -90,6 +90,7 @@ export { default as getMinutesDiffBetweenDates } from "./date/getMinutesDiffBetw
 export { default as getHoursDiffBetweenDates } from "./date/getHoursDiffBetweenDates";
 export { default as getDaysDiffBetweenDates } from "./date/getDaysDiffBetweenDates";
 export { default as getMeridiemSuffixOfInteger } from "./date/getMeridiemSuffixOfInteger";
+export { default as yesterday } from "./date/yesterday";
 
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";
