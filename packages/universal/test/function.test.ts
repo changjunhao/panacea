@@ -3,6 +3,7 @@ import when from "./function/when";
 import unary from "./function/unary";
 import collectInto from "./function/collectInto";
 import timeTaken from "./function/timeTaken";
+import negate from "./function/negate";
 
 describe("function:", () => {
   describe("coalesceFactory", coalesceFactory);
@@ -14,4 +15,6 @@ describe("function:", () => {
   describe("collectInto", collectInto);
 
   describe("timeTaken", timeTaken);
+
+  describe("negate", negate);
 });
