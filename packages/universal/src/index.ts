@@ -89,6 +89,7 @@ export { default as getSecondsDiffBetweenDates } from "./date/getSecondsDiffBetw
 export { default as getMinutesDiffBetweenDates } from "./date/getMinutesDiffBetweenDates";
 export { default as getHoursDiffBetweenDates } from "./date/getHoursDiffBetweenDates";
 export { default as getDaysDiffBetweenDates } from "./date/getDaysDiffBetweenDates";
+export { default as getMonthsDiffBetweenDates } from "./date/getMonthsDiffBetweenDates";
 export { default as getMeridiemSuffixOfInteger } from "./date/getMeridiemSuffixOfInteger";
 export { default as yesterday } from "./date/yesterday";
 export { default as tomorrow } from "./date/tomorrow";
