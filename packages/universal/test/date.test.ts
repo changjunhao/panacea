@@ -10,6 +10,7 @@ import lastDateOfMonth from "./date/lastDateOfMonth";
 import daysInMonth from "./date/daysInMonth";
 import getSecondsDiffBetweenDates from "./date/getSecondsDiffBetweenDates";
 import getMinutesDiffBetweenDates from "./date/getMinutesDiffBetweenDates";
+import getHoursDiffBetweenDates from "./date/getHoursDiffBetweenDates";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -35,4 +36,6 @@ describe("Date:", function () {
   describe("getSecondsDiffBetweenDates:", getSecondsDiffBetweenDates);
 
   describe("getMinutesDiffBetweenDates:", getMinutesDiffBetweenDates);
+
+  describe("getHoursDiffBetweenDates:", getHoursDiffBetweenDates);
 });
