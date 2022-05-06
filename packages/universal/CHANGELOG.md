@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.9](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.8...panacea-core@0.1.9) (2022-05-06)
+
+### Features
+
+- **universal:** add degreesToRads ([791357d](https://github.com/changjunhao/panacea/commit/791357db1448680bbe9d4a04620c1edaabe6c1a3))
+- **universal:** add either ([7ede674](https://github.com/changjunhao/panacea/commit/7ede6743952faf6ad2333131688d46aa6711f440))
+- **universal:** add getDaysDiffBetweenDates ([c3343b3](https://github.com/changjunhao/panacea/commit/c3343b30e070371e160aae2114f13164f610c2aa))
+- **universal:** add getHoursDiffBetweenDates ([3ffba4f](https://github.com/changjunhao/panacea/commit/3ffba4f2943e13fa8ae9086b49e9a07e9479117d))
+- **universal:** add getMeridiemSuffixOfInteger ([a25858d](https://github.com/changjunhao/panacea/commit/a25858d787ad8452692413d5c771a1fed4c02fe1))
+- **universal:** add getMinutesDiffBetweenDates ([6db9632](https://github.com/changjunhao/panacea/commit/6db9632984ed57006619d3196acae1ef7371d5f8))
+- **universal:** add getMonthsDiffBetweenDates ([13fab98](https://github.com/changjunhao/panacea/commit/13fab98ded5af2aeec8ec804291465027325d373))
+- **universal:** add getSecondsDiffBetweenDates ([883b170](https://github.com/changjunhao/panacea/commit/883b1706079a9866970463084dd24660b42ba2e8))
+- **universal:** add getTimestamp ([3465bc1](https://github.com/changjunhao/panacea/commit/3465bc105b7c2773c2653174d46c685d60674cf3))
+- **universal:** add isDeepFrozen ([78e1de4](https://github.com/changjunhao/panacea/commit/78e1de4cb775182f5b42c7fc4a1695331af0c007))
+- **universal:** add negate ([dadc2fa](https://github.com/changjunhao/panacea/commit/dadc2fae4fb5aba047f971ba3f3466ba068b674f))
+- **universal:** add nthRoot ([1214be5](https://github.com/changjunhao/panacea/commit/1214be5ad3e386fb89b35df0c7f448da712a4054))
+- **universal:** add radsToDegrees ([a7f49bb](https://github.com/changjunhao/panacea/commit/a7f49bb0a8eb54fc75a69a46c5567773371917f9))
+- **universal:** add timeTaken ([7c095d1](https://github.com/changjunhao/panacea/commit/7c095d11407b70e7ecd3ba04f93588a02bb889c2))
+- **universal:** add tomorrow ([15a1ead](https://github.com/changjunhao/panacea/commit/15a1eadaacf99ffac160086f48a6215e92977957))
+- **universal:** add yesterday ([84d1028](https://github.com/changjunhao/panacea/commit/84d10282c45c61b494bde01e18bcfc0501b66323))
+
 ## [0.1.8](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.7...panacea-core@0.1.8) (2022-05-05)
 
 ### Features
