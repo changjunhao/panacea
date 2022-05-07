@@ -102,6 +102,7 @@ export { default as getMeridiemSuffixOfInteger } from "./date/getMeridiemSuffixO
 export { default as yesterday } from "./date/yesterday";
 export { default as tomorrow } from "./date/tomorrow";
 export { default as getTimestamp } from "./date/getTimestamp";
+export { default as getColonTimeFromDate } from "./date/getColonTimeFromDate";
 
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";
