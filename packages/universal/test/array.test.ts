@@ -23,6 +23,7 @@ import everyNth from "./array/everyNth";
 import countOccurrences from "./array/countOccurrences";
 import similarity from "./array/similarity";
 import compact from "./array/compact";
+import sample from "./array/sample";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -74,4 +75,6 @@ describe("Array:", function () {
   describe("similarity:", similarity);
 
   describe("compact:", compact);
+
+  describe("sample:", sample);
 });
