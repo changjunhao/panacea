@@ -24,5 +24,6 @@ module.exports = {
     "no-self-compare": "off",
     "no-nested-ternary": "off",
     "no-plusplus": "off",
+    "no-bitwise": "off",
   },
 };
