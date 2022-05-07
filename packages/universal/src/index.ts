@@ -64,6 +64,7 @@ export { default as splitLines } from "./string/splitLines";
 export { default as removeAccents } from "./string/removeAccents";
 export { default as randomAlphaNumeric } from "./string/randomAlphaNumeric";
 export { default as URLJoin } from "./string/URLJoin";
+export { default as CSVToArray } from "./string/CSVToArray";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 export { default as when } from "./function/when";

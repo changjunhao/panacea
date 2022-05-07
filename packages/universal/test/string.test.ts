@@ -39,6 +39,7 @@ import splitLines from "./string/splitLines";
 import removeAccents from "./string/removeAccents";
 import randomAlphaNumeric from "./string/randomAlphaNumeric";
 import URLJoin from "./string/URLJoin";
+import CSVToArray from "./string/CSVToArray";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -122,4 +123,6 @@ describe("string:", () => {
   describe("randomAlphaNumeric", randomAlphaNumeric);
 
   describe("URLJoin", URLJoin);
+
+  describe("CSVToArray", CSVToArray);
 });
