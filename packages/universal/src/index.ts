@@ -62,6 +62,7 @@ export { default as unescapeHTML } from "./string/unescapeHTML";
 export { default as escapeHTML } from "./string/escapeHTML";
 export { default as splitLines } from "./string/splitLines";
 export { default as removeAccents } from "./string/removeAccents";
+export { default as randomAlphaNumeric } from "./string/randomAlphaNumeric";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 export { default as when } from "./function/when";

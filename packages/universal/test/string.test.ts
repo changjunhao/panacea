@@ -37,6 +37,7 @@ import unescapeHTML from "./string/unescapeHTML";
 import escapeHTML from "./string/escapeHTML";
 import splitLines from "./string/splitLines";
 import removeAccents from "./string/removeAccents";
+import randomAlphaNumeric from "./string/randomAlphaNumeric";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -116,4 +117,6 @@ describe("string:", () => {
   describe("splitLines", splitLines);
 
   describe("removeAccents", removeAccents);
+
+  describe("randomAlphaNumeric", randomAlphaNumeric);
 });
