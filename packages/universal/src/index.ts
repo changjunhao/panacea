@@ -150,3 +150,6 @@ export { default as getDistance } from "./algorithm/getDistance";
 export type { Location } from "./algorithm/getDistance";
 
 export { default as createEventHub } from "./event/createEventHub";
+
+export { default as LinkedList } from "./data-structures/LinkedList";
+export type { LinkedListNode } from "./data-structures/LinkedList";
