@@ -24,6 +24,7 @@ import countOccurrences from "./array/countOccurrences";
 import similarity from "./array/similarity";
 import compact from "./array/compact";
 import sample from "./array/sample";
+import arrayToCSV from "./array/arrayToCSV";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -77,4 +78,6 @@ describe("Array:", function () {
   describe("compact:", compact);
 
   describe("sample:", sample);
+
+  describe("arrayToCSV:", arrayToCSV);
 });

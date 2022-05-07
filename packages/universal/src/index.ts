@@ -134,6 +134,7 @@ export { default as countOccurrences } from "./array/countOccurrences";
 export { default as similarity } from "./array/similarity";
 export { default as compact } from "./array/compact";
 export { default as sample } from "./array/sample";
+export { default as arrayToCSV } from "./array/arrayToCSV";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as radsToDegrees } from "./math/radsToDegrees";
