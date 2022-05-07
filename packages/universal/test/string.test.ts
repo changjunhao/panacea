@@ -34,6 +34,7 @@ import toHSLObject from "./string/toHSLObject";
 import changeLightness from "./string/changeLightness";
 import unescapeHTML from "./string/unescapeHTML";
 import escapeHTML from "./string/escapeHTML";
+import splitLines from "./string/splitLines";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -107,4 +108,6 @@ describe("string:", () => {
   describe("unescapeHTML", unescapeHTML);
 
   describe("escapeHTML", escapeHTML);
+
+  describe("splitLines", splitLines);
 });
