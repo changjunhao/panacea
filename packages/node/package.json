@@ -27,6 +27,7 @@
     "url": "https://github.com/changjunhao/panacea/issues"
   },
   "homepage": "https://changjunhao.github.io/panacea/",
+  "changelog": "CHANGELOG.md",
   "devDependencies": {
     "@microsoft/api-extractor": "^7.20.1",
     "@rollup/plugin-commonjs": "^21.0.3",

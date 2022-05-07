@@ -26,6 +26,7 @@
     "url": "https://github.com/changjunhao/panacea/issues"
   },
   "homepage": "https://changjunhao.github.io/panacea/",
+  "changelog": "CHANGELOG.md",
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/plugin-transform-runtime": "^7.17.0",
