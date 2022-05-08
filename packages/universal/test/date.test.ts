@@ -16,6 +16,7 @@ import getMonthsDiffBetweenDates from "./date/getMonthsDiffBetweenDates";
 import getMeridiemSuffixOfInteger from "./date/getMeridiemSuffixOfInteger";
 import getTimestamp from "./date/getTimestamp";
 import getColonTimeFromDate from "./date/getColonTimeFromDate";
+import isISOString from "./date/isISOString";
 import daysAgo from "./date/daysAgo";
 
 describe("Date:", function () {
@@ -54,6 +55,8 @@ describe("Date:", function () {
   describe("getTimestamp:", getTimestamp);
 
   describe("getColonTimeFromDate:", getColonTimeFromDate);
+
+  describe("isISOString:", isISOString);
 
   describe("daysAgo:", daysAgo);
 });

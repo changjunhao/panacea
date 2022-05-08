@@ -107,6 +107,7 @@ export { default as yesterday } from "./date/yesterday";
 export { default as tomorrow } from "./date/tomorrow";
 export { default as getTimestamp } from "./date/getTimestamp";
 export { default as getColonTimeFromDate } from "./date/getColonTimeFromDate";
+export { default as isISOString } from "./date/isISOString";
 export { default as daysAgo } from "./date/daysAgo";
 
 export { default as union } from "./array/union";
