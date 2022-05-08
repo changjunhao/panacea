@@ -16,6 +16,7 @@ import getMonthsDiffBetweenDates from "./date/getMonthsDiffBetweenDates";
 import getMeridiemSuffixOfInteger from "./date/getMeridiemSuffixOfInteger";
 import getTimestamp from "./date/getTimestamp";
 import getColonTimeFromDate from "./date/getColonTimeFromDate";
+import daysAgo from "./date/daysAgo";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -53,4 +54,6 @@ describe("Date:", function () {
   describe("getTimestamp:", getTimestamp);
 
   describe("getColonTimeFromDate:", getColonTimeFromDate);
+
+  describe("daysAgo:", daysAgo);
 });
