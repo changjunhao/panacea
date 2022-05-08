@@ -16,6 +16,7 @@ import getMonthsDiffBetweenDates from "./date/getMonthsDiffBetweenDates";
 import getMeridiemSuffixOfInteger from "./date/getMeridiemSuffixOfInteger";
 import getTimestamp from "./date/getTimestamp";
 import getColonTimeFromDate from "./date/getColonTimeFromDate";
+import minDate from "./date/minDate";
 import maxDate from "./date/maxDate";
 import isISOString from "./date/isISOString";
 import daysFromNow from "./date/daysFromNow";
@@ -57,6 +58,8 @@ describe("Date:", function () {
   describe("getTimestamp:", getTimestamp);
 
   describe("getColonTimeFromDate:", getColonTimeFromDate);
+
+  describe("minDate:", minDate);
 
   describe("maxDate:", maxDate);
 
