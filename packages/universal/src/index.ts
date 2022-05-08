@@ -107,6 +107,7 @@ export { default as yesterday } from "./date/yesterday";
 export { default as tomorrow } from "./date/tomorrow";
 export { default as getTimestamp } from "./date/getTimestamp";
 export { default as getColonTimeFromDate } from "./date/getColonTimeFromDate";
+export { default as weekOfYear } from "./date/weekOfYear";
 export { default as minDate } from "./date/minDate";
 export { default as maxDate } from "./date/maxDate";
 export { default as isISOString } from "./date/isISOString";
