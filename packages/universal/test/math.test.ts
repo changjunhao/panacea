@@ -6,6 +6,7 @@ import isPrime from "./math/isPrime";
 import median from "./math/median";
 import sum from "./math/sum";
 import prod from "./math/prod";
+import average from "./math/average";
 
 describe("Math:", function () {
   describe("toSafeInteger:", toSafeInteger);
@@ -23,4 +24,6 @@ describe("Math:", function () {
   describe("sum:", sum);
 
   describe("prod:", prod);
+
+  describe("average:", average);
 });
