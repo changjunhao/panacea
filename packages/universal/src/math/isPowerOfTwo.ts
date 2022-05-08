@@ -10,6 +10,7 @@
  * ```
  * @category Math
  * @since 0.1.11
+ * @public
  */
 const isPowerOfTwo = (n: number) => !!n && (n & (n - 1)) === 0;
 
