@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.11](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.10...panacea-core@0.1.11) (2022-05-08)
+
+### Features
+
+- **universal:** add allUnique ([a0d5ea9](https://github.com/changjunhao/panacea/commit/a0d5ea91b139c49ea73c395f51816216cac34912))
+- **universal:** add average ([c5a5ae6](https://github.com/changjunhao/panacea/commit/c5a5ae60625c2a95e6e9f35da81edc05a7354cad))
+- **universal:** add dayName ([f532aed](https://github.com/changjunhao/panacea/commit/f532aed4b38a8e86fabecf861863bd9cb6fdacf1))
+- **universal:** add daysAgo ([4ee4f49](https://github.com/changjunhao/panacea/commit/4ee4f492638e7e58df853406dced1d50cb8582eb))
+- **universal:** add daysFromNow ([6d52fed](https://github.com/changjunhao/panacea/commit/6d52fed33719fed13e10671bc5fa4e0ea12e6d55))
+- **universal:** add isISOString ([f95d880](https://github.com/changjunhao/panacea/commit/f95d8807c15d925245fa31e13ac95a8f8f386321))
+- **universal:** add isPowerOfTen ([aec01d1](https://github.com/changjunhao/panacea/commit/aec01d1dc0fb1c6fea22b0e1be783bb7ec61014e))
+- **universal:** add isPowerOfTwo ([2e6087c](https://github.com/changjunhao/panacea/commit/2e6087c50266261c3de4566618169138c7b9eb4d))
+- **universal:** add maxDate ([4ea35b5](https://github.com/changjunhao/panacea/commit/4ea35b50585cfaec2ad008a0604f221e80f86d63))
+- **universal:** add minDate ([0e317d6](https://github.com/changjunhao/panacea/commit/0e317d62dfffbb32601b51ce2105543bc4298884))
+- **universal:** add weekOfYear ([462c363](https://github.com/changjunhao/panacea/commit/462c363c0a28953ed2b5eb64f90c4e6ae2fa2ec7))
+
 ## [0.1.10](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.9...panacea-core@0.1.10) (2022-05-07)
 
 ### Features
