@@ -153,6 +153,7 @@ export { default as median } from "./math/median";
 export { default as sum } from "./math/sum";
 export { default as prod } from "./math/prod";
 export { default as average } from "./math/average";
+export { default as isPowerOfTwo } from "./math/isPowerOfTwo";
 
 export { default as caesarCipher } from "./algorithm/caesarCipher";
 export { default as getDistance } from "./algorithm/getDistance";
