@@ -25,6 +25,7 @@ import similarity from "./array/similarity";
 import compact from "./array/compact";
 import sample from "./array/sample";
 import arrayToCSV from "./array/arrayToCSV";
+import allUnique from "./array/allUnique";
 
 describe("Array:", function () {
   describe("union:", union);
@@ -80,4 +81,6 @@ describe("Array:", function () {
   describe("sample:", sample);
 
   describe("arrayToCSV:", arrayToCSV);
+
+  describe("allUnique:", allUnique);
 });
