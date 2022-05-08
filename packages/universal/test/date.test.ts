@@ -22,6 +22,7 @@ import maxDate from "./date/maxDate";
 import isISOString from "./date/isISOString";
 import daysFromNow from "./date/daysFromNow";
 import daysAgo from "./date/daysAgo";
+import dayName from "./date/dayName";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -71,4 +72,6 @@ describe("Date:", function () {
   describe("daysFromNow:", daysFromNow);
 
   describe("daysAgo:", daysAgo);
+
+  describe("dayName:", dayName);
 });
