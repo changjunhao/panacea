@@ -14,6 +14,7 @@ import isEven from "./math/isEven";
 import isNegativeZero from "./math/isNegativeZero";
 import isDivisible from "./math/isDivisible";
 import approximatelyEqual from "./math/approximatelyEqual";
+import sumN from "./math/sumN";
 
 describe("Math:", function () {
   describe("toSafeInteger:", toSafeInteger);
@@ -47,4 +48,6 @@ describe("Math:", function () {
   describe("isDivisible:", isDivisible);
 
   describe("approximatelyEqual:", approximatelyEqual);
+
+  describe("sumN:", sumN);
 });
