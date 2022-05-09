@@ -13,6 +13,7 @@ import isOdd from "./math/isOdd";
 import isEven from "./math/isEven";
 import isNegativeZero from "./math/isNegativeZero";
 import isDivisible from "./math/isDivisible";
+import approximatelyEqual from "./math/approximatelyEqual";
 
 describe("Math:", function () {
   describe("toSafeInteger:", toSafeInteger);
@@ -44,4 +45,6 @@ describe("Math:", function () {
   describe("isNegativeZero:", isNegativeZero);
 
   describe("isDivisible:", isDivisible);
+
+  describe("approximatelyEqual:", approximatelyEqual);
 });
