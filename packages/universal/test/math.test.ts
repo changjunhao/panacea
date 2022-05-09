@@ -9,6 +9,7 @@ import prod from "./math/prod";
 import average from "./math/average";
 import isPowerOfTwo from "./math/isPowerOfTwo";
 import isPowerOfTen from "./math/isPowerOfTen";
+import isOdd from "./math/isOdd";
 
 describe("Math:", function () {
   describe("toSafeInteger:", toSafeInteger);
@@ -32,4 +33,6 @@ describe("Math:", function () {
   describe("isPowerOfTwo:", isPowerOfTwo);
 
   describe("isPowerOfTen:", isPowerOfTen);
+
+  describe("isOdd:", isOdd);
 });
