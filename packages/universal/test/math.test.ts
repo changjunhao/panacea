@@ -11,6 +11,7 @@ import isPowerOfTwo from "./math/isPowerOfTwo";
 import isPowerOfTen from "./math/isPowerOfTen";
 import isOdd from "./math/isOdd";
 import isEven from "./math/isEven";
+import isNegativeZero from "./math/isNegativeZero";
 
 describe("Math:", function () {
   describe("toSafeInteger:", toSafeInteger);
@@ -38,4 +39,6 @@ describe("Math:", function () {
   describe("isOdd:", isOdd);
 
   describe("isEven:", isEven);
+
+  describe("isNegativeZero:", isNegativeZero);
 });

@@ -157,6 +157,7 @@ export { default as isPowerOfTwo } from "./math/isPowerOfTwo";
 export { default as isPowerOfTen } from "./math/isPowerOfTen";
 export { default as isOdd } from "./math/isOdd";
 export { default as isEven } from "./math/isEven";
+export { default as isNegativeZero } from "./math/isNegativeZero";
 
 export { default as caesarCipher } from "./algorithm/caesarCipher";
 export { default as getDistance } from "./algorithm/getDistance";
