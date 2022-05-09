@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.12](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.11...panacea-core@0.1.12) (2022-05-09)
+
+### Features
+
+- **universal:** add approximatelyEqual ([f1e281e](https://github.com/changjunhao/panacea/commit/f1e281e918c9f0b53b979453a7168718f923b501))
+- **universal:** add isDivisible ([324e9da](https://github.com/changjunhao/panacea/commit/324e9da5fc43473c1918b5e2a221d0f499a5ca41))
+- **universal:** add isEven ([12fcdbd](https://github.com/changjunhao/panacea/commit/12fcdbd038676159d57f5955fc58bfea4df9c1d1))
+- **universal:** add isNegativeZero ([3059932](https://github.com/changjunhao/panacea/commit/3059932346feaf252bdfc1728f8bc0c438b8c17b))
+- **universal:** add isOdd ([3e76c86](https://github.com/changjunhao/panacea/commit/3e76c866591870245176379a43c0e0a5f1100000))
+- **universal:** add sumN ([df1e8b1](https://github.com/changjunhao/panacea/commit/df1e8b1bdd2611acd8014c9206c21454caeb7155))
+
 ## [0.1.11](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.10...panacea-core@0.1.11) (2022-05-08)
 
 ### Features
