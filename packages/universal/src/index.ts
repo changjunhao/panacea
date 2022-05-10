@@ -145,6 +145,7 @@ export { default as similarity } from "./array/similarity";
 export { default as compact } from "./array/compact";
 export { default as sample } from "./array/sample";
 export { default as arrayToCSV } from "./array/arrayToCSV";
+export { default as JSONtoCSV } from "./array/JSONtoCSV";
 export { default as allUnique } from "./array/allUnique";
 
 export { default as toSafeInteger } from "./math/toSafeInteger";
