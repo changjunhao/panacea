@@ -18,6 +18,7 @@
  * ```
  * @public
  * @since 0.1.3
+ * @category Array
  */
 const JSONtoCSV = (
   arr: { [p: string]: string | number }[],

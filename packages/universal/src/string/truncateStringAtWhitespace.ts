@@ -13,6 +13,7 @@
  * truncateStringAtWhitespace('javascripting', 10); // 'javascr...'
  * ```
  * @since 0.1.1
+ * @category String
  */
 const truncateStringAtWhitespace = (
   str: string,
