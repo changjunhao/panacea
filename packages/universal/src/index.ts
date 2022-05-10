@@ -83,6 +83,7 @@ export { default as objectToPairs } from "./object/objectToPairs";
 export { default as matches } from "./object/matches";
 export { default as isDeepFrozen } from "./object/isDeepFrozen";
 export { default as size } from "./object/size";
+export { default as deepMerge } from "./object/deepMerge";
 export { default as get } from "./object/get";
 
 export { default as isNode } from "./environment/isNode";

@@ -6,6 +6,7 @@ import objectToPairs from "./object/objectToPairs";
 import matches from "./object/matches";
 import isDeepFrozen from "./object/isDeepFrozen";
 import size from "./object/size";
+import deepMerge from "./object/deepMerge";
 import get from "./object/get";
 
 describe("object:", function () {
@@ -24,6 +25,8 @@ describe("object:", function () {
   describe("isDeepFrozen:", isDeepFrozen);
 
   describe("size:", size);
+
+  describe("deepMerge:", deepMerge);
 
   describe("get:", get);
 });
