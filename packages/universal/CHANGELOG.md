@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.13](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.12...panacea-core@0.1.13) (2022-05-11)
+
+### Features
+
+- **universal:** add addDaysToDate ([259f7a8](https://github.com/changjunhao/panacea/commit/259f7a89f4e227fdb9785a62f240286be3023587))
+- **universal:** add dayOfYear ([b39ea22](https://github.com/changjunhao/panacea/commit/b39ea22b75cb411e55f80e50ddca7bd1cdd990c2))
+- **universal:** add deepMerge ([91540b6](https://github.com/changjunhao/panacea/commit/91540b697e54c73eb12c92ecda1530b0f46498af))
+- **universal:** add get ([f8bd501](https://github.com/changjunhao/panacea/commit/f8bd501e53e9963359038c1e0deace3fbc91b401))
+- **universal:** add JSONtoCSV ([01b92c7](https://github.com/changjunhao/panacea/commit/01b92c74e3caf4155a10d5c15e5ef4990bfefa2a))
+- **universal:** add quarterOfYear ([35180f2](https://github.com/changjunhao/panacea/commit/35180f2aba0fec69cd2d780642e3214ed54b82c6))
+
 ## [0.1.12](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.11...panacea-core@0.1.12) (2022-05-09)
 
 ### Features
