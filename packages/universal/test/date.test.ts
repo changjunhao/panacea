@@ -24,6 +24,7 @@ import daysFromNow from "./date/daysFromNow";
 import daysAgo from "./date/daysAgo";
 import dayName from "./date/dayName";
 import dayOfYear from "./date/dayOfYear";
+import quarterOfYear from "./date/quarterOfYear";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -77,4 +78,6 @@ describe("Date:", function () {
   describe("dayName:", dayName);
 
   describe("dayOfYear:", dayOfYear);
+
+  describe("quarterOfYear:", quarterOfYear);
 });
