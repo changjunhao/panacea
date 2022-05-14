@@ -123,6 +123,7 @@ export { default as addWeekDays } from "./date/addWeekDays";
 export { default as isDateValid } from "./date/isDateValid";
 export { default as dateRangeGenerator } from "./date/dateRangeGenerator";
 export { default as addMinutesToDate } from "./date/addMinutesToDate";
+export { default as countWeekDaysBetween } from "./date/countWeekDaysBetween";
 
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";

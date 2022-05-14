@@ -30,6 +30,7 @@ import addWeekDays from "./date/addWeekDays";
 import isDateValid from "./date/isDateValid";
 import dateRangeGenerator from "./date/dateRangeGenerator";
 import addMinutesToDate from "./date/addMinutesToDate";
+import countWeekDaysBetween from "./date/countWeekDaysBetween";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -95,4 +96,6 @@ describe("Date:", function () {
   describe("dateRangeGenerator:", dateRangeGenerator);
 
   describe("addMinutesToDate:", addMinutesToDate);
+
+  describe("countWeekDaysBetween:", countWeekDaysBetween);
 });
