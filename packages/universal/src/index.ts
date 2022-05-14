@@ -121,6 +121,7 @@ export { default as quarterOfYear } from "./date/quarterOfYear";
 export { default as addDaysToDate } from "./date/addDaysToDate";
 export { default as addWeekDays } from "./date/addWeekDays";
 export { default as isDateValid } from "./date/isDateValid";
+export { default as dateRangeGenerator } from "./date/dateRangeGenerator";
 
 export { default as union } from "./array/union";
 export { default as generateItems } from "./array/generateItems";

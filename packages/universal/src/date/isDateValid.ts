@@ -16,8 +16,8 @@
  * @public
  * @since 0.1.14
  */
-// @ts-ignore
 const isDateValid = (...val: any[]) =>
+  // @ts-ignore
   !Number.isNaN(new Date(...val).valueOf());
 
 export default isDateValid;

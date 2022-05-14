@@ -28,6 +28,7 @@ import quarterOfYear from "./date/quarterOfYear";
 import addDaysToDate from "./date/addDaysToDate";
 import addWeekDays from "./date/addWeekDays";
 import isDateValid from "./date/isDateValid";
+import dateRangeGenerator from "./date/dateRangeGenerator";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -89,4 +90,6 @@ describe("Date:", function () {
   describe("addWeekDays:", addWeekDays);
 
   describe("isDateValid:", isDateValid);
+
+  describe("dateRangeGenerator:", dateRangeGenerator);
 });
