@@ -26,6 +26,7 @@ import dayName from "./date/dayName";
 import dayOfYear from "./date/dayOfYear";
 import quarterOfYear from "./date/quarterOfYear";
 import addDaysToDate from "./date/addDaysToDate";
+import addWeekDays from "./date/addWeekDays";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -83,4 +84,6 @@ describe("Date:", function () {
   describe("quarterOfYear:", quarterOfYear);
 
   describe("addDaysToDate:", addDaysToDate);
+
+  describe("addWeekDays:", addWeekDays);
 });
