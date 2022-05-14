@@ -32,6 +32,7 @@ import dateRangeGenerator from "./date/dateRangeGenerator";
 import addMinutesToDate from "./date/addMinutesToDate";
 import countWeekDaysBetween from "./date/countWeekDaysBetween";
 import toISOStringWithTimezone from "./date/toISOStringWithTimezone";
+import formatSeconds from "./date/formatSeconds";
 
 describe("Date:", function () {
   describe("isBetweenDates:", isBetweenDates);
@@ -101,4 +102,6 @@ describe("Date:", function () {
   describe("countWeekDaysBetween:", countWeekDaysBetween);
 
   describe("toISOStringWithTimezone:", toISOStringWithTimezone);
+
+  describe("formatSeconds:", formatSeconds);
 });
