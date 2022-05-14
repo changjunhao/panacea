@@ -9,7 +9,8 @@
  * addWeekDays(new Date('Oct 12, 2020'), 5); // 'Oct 19, 2020'
  * ```
  * @public
- * @since 0.1.13
+ * @since 0.1.14
+ * @category Date
  */
 const addWeekDays = (startDate: Date, count: number): Date =>
   Array.from({ length: count }).reduce((date: Date) => {
