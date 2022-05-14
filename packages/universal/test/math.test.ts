@@ -16,6 +16,7 @@ import isDivisible from "./math/isDivisible";
 import approximatelyEqual from "./math/approximatelyEqual";
 import sumN from "./math/sumN";
 import toOptionalFixed from "./math/toOptionalFixed";
+import hasDecimals from "./math/hasDecimals";
 
 describe("Math:", function () {
   describe("toSafeInteger:", toSafeInteger);
@@ -53,4 +54,6 @@ describe("Math:", function () {
   describe("sumN:", sumN);
 
   describe("toOptionalFixed:", toOptionalFixed);
+
+  describe("hasDecimals:", hasDecimals);
 });

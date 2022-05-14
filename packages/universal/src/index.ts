@@ -176,6 +176,7 @@ export { default as isDivisible } from "./math/isDivisible";
 export { default as approximatelyEqual } from "./math/approximatelyEqual";
 export { default as sumN } from "./math/sumN";
 export { default as toOptionalFixed } from "./math/toOptionalFixed";
+export { default as hasDecimals } from "./math/hasDecimals";
 
 export { default as caesarCipher } from "./algorithm/caesarCipher";
 export { default as getDistance } from "./algorithm/getDistance";
