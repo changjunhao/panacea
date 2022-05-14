@@ -51,6 +51,12 @@ module.exports = {
       lines: 100,
       statements: 100,
     },
+    "src/date/toISOStringWithTimezone.ts": {
+      branches: 66,
+      functions: 100,
+      lines: 100,
+      statements: 100,
+    },
   },
 
   // A path to a custom dependency extractor
