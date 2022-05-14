@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.14](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.13...panacea-core@0.1.14) (2022-05-14)
+
+### Features
+
+- **universal:** add addMinutesToDate ([58b5eac](https://github.com/changjunhao/panacea/commit/58b5eac32a01ae144016829426310d3ded88d2f7))
+- **universal:** add addWeekDays ([aef9106](https://github.com/changjunhao/panacea/commit/aef91063246e1556bd278daddfea3b302d45b212))
+- **universal:** add countWeekDaysBetween ([36747b9](https://github.com/changjunhao/panacea/commit/36747b906a6a24b485117ab646abc51a82dc0770))
+- **universal:** add dateRangeGenerator ([c2c09a0](https://github.com/changjunhao/panacea/commit/c2c09a0a49df2d40005ece56009d03afb6a2bdb8))
+- **universal:** add formatDuration ([6157123](https://github.com/changjunhao/panacea/commit/615712369b8eec6c02cc868156f27bebf019106f))
+- **universal:** add formatSeconds ([234e7f3](https://github.com/changjunhao/panacea/commit/234e7f31c4d3362e42bb1f779106580d0eef120d))
+- **universal:** add hasDecimals ([f35aff4](https://github.com/changjunhao/panacea/commit/f35aff4cc7d47c2470474744f62c3794023ce7a8))
+- **universal:** add isDateValid ([003d0a2](https://github.com/changjunhao/panacea/commit/003d0a2a4935f13d63cebef54341fe2e53f0aabd))
+- **universal:** add toISOStringWithTimezone ([09b3d6e](https://github.com/changjunhao/panacea/commit/09b3d6ec56e4eb52257d3a416acc372f6c30aa25))
+- **universal:** add toOptionalFixed ([1744340](https://github.com/changjunhao/panacea/commit/1744340d3b2a825193d8d79f85d8e04e5a0bb2d0))
+
 ## [0.1.13](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.12...panacea-core@0.1.13) (2022-05-11)
 
 ### Features
