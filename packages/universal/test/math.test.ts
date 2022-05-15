@@ -15,6 +15,7 @@ import isNegativeZero from "./math/isNegativeZero";
 import isDivisible from "./math/isDivisible";
 import approximatelyEqual from "./math/approximatelyEqual";
 import sumN from "./math/sumN";
+import inRange from "./math/inRange";
 import copySign from "./math/copySign";
 import toOptionalFixed from "./math/toOptionalFixed";
 import hasDecimals from "./math/hasDecimals";
@@ -59,4 +60,6 @@ describe("Math:", function () {
   describe("hasDecimals:", hasDecimals);
 
   describe("copySign:", copySign);
+
+  describe("inRange:", inRange);
 });
