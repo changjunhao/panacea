@@ -179,6 +179,7 @@ export { default as logBase } from "./math/logBase";
 export { default as inRange } from "./math/inRange";
 export { default as copySign } from "./math/copySign";
 export { default as clampNumber } from "./math/clampNumber";
+export { default as validateNumber } from "./math/validateNumber";
 export { default as toOptionalFixed } from "./math/toOptionalFixed";
 export { default as hasDecimals } from "./math/hasDecimals";
 

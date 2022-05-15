@@ -19,6 +19,7 @@ import logBase from "./math/logBase";
 import inRange from "./math/inRange";
 import copySign from "./math/copySign";
 import clampNumber from "./math/clampNumber";
+import validateNumber from "./math/validateNumber";
 import toOptionalFixed from "./math/toOptionalFixed";
 import hasDecimals from "./math/hasDecimals";
 
@@ -64,6 +65,8 @@ describe("Math:", function () {
   describe("copySign:", copySign);
 
   describe("clampNumber:", clampNumber);
+
+  describe("validateNumber:", validateNumber);
 
   describe("toOptionalFixed:", toOptionalFixed);
 
