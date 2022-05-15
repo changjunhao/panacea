@@ -162,7 +162,6 @@ export { default as toSafeInteger } from "./math/toSafeInteger";
 export { default as radsToDegrees } from "./math/radsToDegrees";
 export { default as degreesToRads } from "./math/degreesToRads";
 export { default as nthRoot } from "./math/nthRoot";
-export { default as isPrime } from "./math/isPrime";
 export { default as median } from "./math/median";
 export { default as sum } from "./math/sum";
 export { default as prod } from "./math/prod";
@@ -181,6 +180,8 @@ export { default as copySign } from "./math/copySign";
 export { default as clampNumber } from "./math/clampNumber";
 export { default as validateNumber } from "./math/validateNumber";
 export { default as round } from "./math/round";
+export { default as isPrime } from "./math/isPrime";
+export { default as distance } from "./math/distance";
 export { default as toOptionalFixed } from "./math/toOptionalFixed";
 export { default as hasDecimals } from "./math/hasDecimals";
 
