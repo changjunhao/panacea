@@ -20,6 +20,7 @@ import inRange from "./math/inRange";
 import copySign from "./math/copySign";
 import clampNumber from "./math/clampNumber";
 import validateNumber from "./math/validateNumber";
+import round from "./math/round";
 import toOptionalFixed from "./math/toOptionalFixed";
 import hasDecimals from "./math/hasDecimals";
 
@@ -67,6 +68,8 @@ describe("Math:", function () {
   describe("clampNumber:", clampNumber);
 
   describe("validateNumber:", validateNumber);
+
+  describe("round:", round);
 
   describe("toOptionalFixed:", toOptionalFixed);
 
