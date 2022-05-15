@@ -182,6 +182,7 @@ export { default as validateNumber } from "./math/validateNumber";
 export { default as round } from "./math/round";
 export { default as isPrime } from "./math/isPrime";
 export { default as distance } from "./math/distance";
+export { default as toDecimalMark } from "./math/toDecimalMark";
 export { default as toOptionalFixed } from "./math/toOptionalFixed";
 export { default as hasDecimals } from "./math/hasDecimals";
 

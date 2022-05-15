@@ -22,6 +22,7 @@ import clampNumber from "./math/clampNumber";
 import validateNumber from "./math/validateNumber";
 import round from "./math/round";
 import distance from "./math/distance";
+import toDecimalMark from "./math/toDecimalMark";
 import toOptionalFixed from "./math/toOptionalFixed";
 import hasDecimals from "./math/hasDecimals";
 
@@ -73,6 +74,8 @@ describe("Math:", function () {
   describe("round:", round);
 
   describe("distance:", distance);
+
+  describe("toDecimalMark:", toDecimalMark);
 
   describe("toOptionalFixed:", toOptionalFixed);
 
