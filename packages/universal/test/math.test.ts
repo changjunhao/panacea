@@ -15,6 +15,7 @@ import isNegativeZero from "./math/isNegativeZero";
 import isDivisible from "./math/isDivisible";
 import approximatelyEqual from "./math/approximatelyEqual";
 import sumN from "./math/sumN";
+import logBase from "./math/logBase";
 import inRange from "./math/inRange";
 import copySign from "./math/copySign";
 import toOptionalFixed from "./math/toOptionalFixed";
@@ -55,11 +56,13 @@ describe("Math:", function () {
 
   describe("sumN:", sumN);
 
-  describe("toOptionalFixed:", toOptionalFixed);
+  describe("logBase:", logBase);
 
-  describe("hasDecimals:", hasDecimals);
+  describe("inRange:", inRange);
 
   describe("copySign:", copySign);
 
-  describe("inRange:", inRange);
+  describe("toOptionalFixed:", toOptionalFixed);
+
+  describe("hasDecimals:", hasDecimals);
 });

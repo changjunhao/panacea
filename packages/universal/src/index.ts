@@ -175,6 +175,7 @@ export { default as isNegativeZero } from "./math/isNegativeZero";
 export { default as isDivisible } from "./math/isDivisible";
 export { default as approximatelyEqual } from "./math/approximatelyEqual";
 export { default as sumN } from "./math/sumN";
+export { default as logBase } from "./math/logBase";
 export { default as inRange } from "./math/inRange";
 export { default as copySign } from "./math/copySign";
 export { default as toOptionalFixed } from "./math/toOptionalFixed";
