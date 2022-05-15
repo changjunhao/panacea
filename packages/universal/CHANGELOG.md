@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.15](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.14...panacea-core@0.1.15) (2022-05-15)
+
+### Features
+
+- **universal:** add clampNumber ([477282a](https://github.com/changjunhao/panacea/commit/477282a2d7ac5c47bbfd731dc017a32830f20ffa))
+- **universal:** add copySign ([608782d](https://github.com/changjunhao/panacea/commit/608782d5db0f5d87651c4efa362e9ab1870f8864))
+- **universal:** add CSVToJSON ([7601ec2](https://github.com/changjunhao/panacea/commit/7601ec2dde7f6c8e6bf04e7c42eb00553d89747c))
+- **universal:** add distance ([df44473](https://github.com/changjunhao/panacea/commit/df44473bea99d0e2271f14ab59bcf019c1b93d87))
+- **universal:** add getURLParameters ([434c95b](https://github.com/changjunhao/panacea/commit/434c95b3b8f9f092fe1401eb1836a0b297680d92))
+- **universal:** add inRange ([4b6434e](https://github.com/changjunhao/panacea/commit/4b6434e1f7b77f5cfa3b4018311f968a07a5258f))
+- **universal:** add logBase ([d22936f](https://github.com/changjunhao/panacea/commit/d22936faf968c6722297dffb2e518828ff987cfd))
+- **universal:** add round ([1a8485d](https://github.com/changjunhao/panacea/commit/1a8485d0a941060975b7676e3f885163365a3a81))
+- **universal:** add toDecimalMark ([b19d746](https://github.com/changjunhao/panacea/commit/b19d746d8da66e5878d3e2c6a806d0f122382022))
+- **universal:** add validateNumber ([2c568bd](https://github.com/changjunhao/panacea/commit/2c568bd826cede6aa3940fbb12c7ada1b79ae87f))
+
 ## [0.1.14](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.13...panacea-core@0.1.14) (2022-05-14)
 
 ### Features
