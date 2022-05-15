@@ -41,6 +41,7 @@ import randomAlphaNumeric from "./string/randomAlphaNumeric";
 import URLJoin from "./string/URLJoin";
 import CSVToArray from "./string/CSVToArray";
 import capitalize from "./string/capitalize";
+import getURLParameters from "./string/getURLParameters";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -128,4 +129,6 @@ describe("string:", () => {
   describe("CSVToArray", CSVToArray);
 
   describe("capitalize", capitalize);
+
+  describe("getURLParameters", getURLParameters);
 });

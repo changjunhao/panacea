@@ -66,6 +66,7 @@ export { default as randomAlphaNumeric } from "./string/randomAlphaNumeric";
 export { default as URLJoin } from "./string/URLJoin";
 export { default as CSVToArray } from "./string/CSVToArray";
 export { default as capitalize } from "./string/capitalize";
+export { default as getURLParameters } from "./string/getURLParameters";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 export { default as when } from "./function/when";
