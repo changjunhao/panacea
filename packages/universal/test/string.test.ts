@@ -40,6 +40,7 @@ import removeAccents from "./string/removeAccents";
 import randomAlphaNumeric from "./string/randomAlphaNumeric";
 import URLJoin from "./string/URLJoin";
 import CSVToArray from "./string/CSVToArray";
+import CSVToJSON from "./string/CSVToJSON";
 import capitalize from "./string/capitalize";
 import getURLParameters from "./string/getURLParameters";
 
@@ -127,6 +128,8 @@ describe("string:", () => {
   describe("URLJoin", URLJoin);
 
   describe("CSVToArray", CSVToArray);
+
+  describe("CSVToJSON", CSVToJSON);
 
   describe("capitalize", capitalize);
 
