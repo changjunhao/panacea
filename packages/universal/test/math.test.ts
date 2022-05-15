@@ -18,6 +18,7 @@ import sumN from "./math/sumN";
 import logBase from "./math/logBase";
 import inRange from "./math/inRange";
 import copySign from "./math/copySign";
+import clampNumber from "./math/clampNumber";
 import toOptionalFixed from "./math/toOptionalFixed";
 import hasDecimals from "./math/hasDecimals";
 
@@ -61,6 +62,8 @@ describe("Math:", function () {
   describe("inRange:", inRange);
 
   describe("copySign:", copySign);
+
+  describe("clampNumber:", clampNumber);
 
   describe("toOptionalFixed:", toOptionalFixed);
 
