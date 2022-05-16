@@ -18,3 +18,9 @@ npm install --save panacea-core
 npm install --save panacea-browser
 npm install --save panacea-node
 ```
+
+See the [panacea-core_changelog](https://github.com/changjunhao/panacea/blob/main/packages/universal/CHANGELOG.md)
+
+See the [panacea-browser_changelog](https://github.com/changjunhao/panacea/blob/main/packages/browser/CHANGELOG.md)
+
+See the [panacea-node_changelog](https://github.com/changjunhao/panacea/blob/main/packages/node/CHANGELOG.md)
