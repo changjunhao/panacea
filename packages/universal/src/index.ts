@@ -87,6 +87,7 @@ export { default as isDeepFrozen } from "./object/isDeepFrozen";
 export { default as size } from "./object/size";
 export { default as deepMerge } from "./object/deepMerge";
 export { default as get } from "./object/get";
+export { default as queryStringToObject } from "./object/queryStringToObject";
 
 export { default as isNode } from "./environment/isNode";
 export { default as isBrowser } from "./environment/isBrowser";

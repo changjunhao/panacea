@@ -8,6 +8,7 @@ import isDeepFrozen from "./object/isDeepFrozen";
 import size from "./object/size";
 import deepMerge from "./object/deepMerge";
 import get from "./object/get";
+import queryStringToObject from "./object/queryStringToObject";
 
 describe("object:", function () {
   describe("equals:", equals);
@@ -29,4 +30,6 @@ describe("object:", function () {
   describe("deepMerge:", deepMerge);
 
   describe("get:", get);
+
+  describe("queryStringToObject:", queryStringToObject);
 });
