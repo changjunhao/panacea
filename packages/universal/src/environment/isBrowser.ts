@@ -6,7 +6,7 @@
  * isBrowser(); // false (Node)
  * ```
  * @since 0.1.0
- * @category environment
+ * @category Environment
  * @public
  */
 const isBrowser = (): boolean =>
