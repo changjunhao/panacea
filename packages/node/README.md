@@ -28,6 +28,8 @@ untildify("~/foo/bar");
 
 See the [doc](https://changjunhao.github.io/panacea/modules/panacea_node.html).
 
+See the [Changelog](https://github.com/changjunhao/panacea/blob/main/packages/node/CHANGELOG.md)
+
 ```
 panacea
 ├── panacea-core - JavaScript Universal Function Library
