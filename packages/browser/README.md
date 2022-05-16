@@ -18,6 +18,8 @@ byteSize("你好");
 
 See the [doc](https://changjunhao.github.io/panacea/modules/panacea_browser.html).
 
+See the [Changelog](https://github.com/changjunhao/panacea/blob/main/packages/browser/CHANGELOG.md)
+
 ```
 panacea
 ├── panacea-core - JavaScript Universal Function Library
