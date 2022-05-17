@@ -57,6 +57,7 @@ export { default as toRGBObject } from "./string/toRGBObject";
 export { default as toHSLArray } from "./string/toHSLArray";
 export { default as toHSLObject } from "./string/toHSLObject";
 export { default as RGBToHex } from "./string/RGBToHex";
+export { default as extendHex } from "./string/extendHex";
 export { default as changeLightness } from "./string/changeLightness";
 export { default as unescapeHTML } from "./string/unescapeHTML";
 export { default as escapeHTML } from "./string/escapeHTML";

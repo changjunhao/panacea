@@ -32,6 +32,7 @@ import toRGBObject from "./string/toRGBObject";
 import toHSLArray from "./string/toHSLArray";
 import toHSLObject from "./string/toHSLObject";
 import RGBToHex from "./string/RGBToHex";
+import extendHex from "./string/extendHex";
 import changeLightness from "./string/changeLightness";
 import unescapeHTML from "./string/unescapeHTML";
 import escapeHTML from "./string/escapeHTML";
@@ -112,6 +113,8 @@ describe("string:", () => {
   describe("toHSLObject", toHSLObject);
 
   describe("RGBToHex", RGBToHex);
+
+  describe("extendHex", extendHex);
 
   describe("changeLightness", changeLightness);
 
