@@ -44,6 +44,7 @@ import CSVToArray from "./string/CSVToArray";
 import CSVToJSON from "./string/CSVToJSON";
 import capitalize from "./string/capitalize";
 import getURLParameters from "./string/getURLParameters";
+import indexOfSubstrings from "./string/indexOfSubstrings";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -137,4 +138,6 @@ describe("string:", () => {
   describe("capitalize", capitalize);
 
   describe("getURLParameters", getURLParameters);
+
+  describe("indexOfSubstrings", indexOfSubstrings);
 });
