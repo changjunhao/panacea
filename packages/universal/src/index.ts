@@ -70,6 +70,7 @@ export { default as CSVToJSON } from "./string/CSVToJSON";
 export { default as capitalize } from "./string/capitalize";
 export { default as getURLParameters } from "./string/getURLParameters";
 export { default as indexOfSubstrings } from "./string/indexOfSubstrings";
+export { default as countSubstrings } from "./string/countSubstrings";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 export { default as when } from "./function/when";
