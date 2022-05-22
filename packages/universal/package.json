@@ -1,6 +1,6 @@
 {
   "name": "panacea-core",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "JavaScript Universal Function Library",
   "main": "lib/index.js",
   "module": "esm/index.js",

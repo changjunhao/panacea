@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.7...panacea-browser@0.1.8) (2022-05-22)
+
+### Features
+
+- **browser:** deprecated getURLParameters - getURLParameters is universal js function ([15ff958](https://github.com/changjunhao/panacea/commit/15ff958855acaedb38c919d3e5e5497a0df740fd))
+
 ## [0.1.7](https://github.com/changjunhao/panacea/compare/panacea-browser@0.1.6...panacea-browser@0.1.7) (2022-05-08)
 
 **Note:** Version bump only for package panacea-browser

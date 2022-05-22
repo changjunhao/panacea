@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.16](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.15...panacea-core@0.1.16) (2022-05-22)
+
+### Bug Fixes
+
+- **universal:** fix isBrowser category ([3706007](https://github.com/changjunhao/panacea/commit/370600782392ffd296ff70b657dc798dbb086fdf))
+
+### Features
+
+- **universal:** add countSubstrings ([b9f4f4c](https://github.com/changjunhao/panacea/commit/b9f4f4cfa33935102458782d749bb235418928c7))
+- **universal:** add extendHex ([c868340](https://github.com/changjunhao/panacea/commit/c86834023e092b998c6c9ea7d384a7a54e456b61))
+- **universal:** add indexOfSubstrings ([cbf5849](https://github.com/changjunhao/panacea/commit/cbf58496da0affa35c0c32e79baeee1147001577))
+- **universal:** add mapString ([16e5d95](https://github.com/changjunhao/panacea/commit/16e5d9561db9607a55a5d07ee3feba4c0ccdf6d3))
+- **universal:** add queryStringToObject ([328e995](https://github.com/changjunhao/panacea/commit/328e9950f248e7dd1d9f1f8956ca9a629f8c155f))
+- **universal:** add replaceLast ([92e173b](https://github.com/changjunhao/panacea/commit/92e173be6bac1abae96b3ab0c4fc0e0aec3bab4e))
+- **universal:** add swapCase ([c2b12ff](https://github.com/changjunhao/panacea/commit/c2b12ffd3f76a477f23f71a0ac2f3138f94b84a5))
+- **universal:** add toCamelCase ([4406fc2](https://github.com/changjunhao/panacea/commit/4406fc277779d970c095ceff77a8238031aae7a7))
+- **universal:** add toPascalCase ([35b4815](https://github.com/changjunhao/panacea/commit/35b4815adb87f1837c925b6136fa5546b94c8369))
+- **universal:** add toSnakeCase ([4e50769](https://github.com/changjunhao/panacea/commit/4e507693985e988867b74263ff59da7eed4b47cf))
+- **universal:** add toTitleCase ([96c0484](https://github.com/changjunhao/panacea/commit/96c0484068469d155308610fb685b8e0e96b4722))
+
 ## [0.1.15](https://github.com/changjunhao/panacea/compare/panacea-core@0.1.14...panacea-core@0.1.15) (2022-05-15)
 
 ### Features
