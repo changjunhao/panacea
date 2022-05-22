@@ -72,6 +72,7 @@ export { default as getURLParameters } from "./string/getURLParameters";
 export { default as indexOfSubstrings } from "./string/indexOfSubstrings";
 export { default as countSubstrings } from "./string/countSubstrings";
 export { default as replaceLast } from "./string/replaceLast";
+export { default as swapCase } from "./string/swapCase";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 export { default as when } from "./function/when";

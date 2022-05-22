@@ -47,6 +47,7 @@ import getURLParameters from "./string/getURLParameters";
 import indexOfSubstrings from "./string/indexOfSubstrings";
 import countSubstrings from "./string/countSubstrings";
 import replaceLast from "./string/replaceLast";
+import swapCase from "./string/swapCase";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -146,4 +147,6 @@ describe("string:", () => {
   describe("countSubstrings", countSubstrings);
 
   describe("replaceLast", replaceLast);
+
+  describe("swapCase", swapCase);
 });
