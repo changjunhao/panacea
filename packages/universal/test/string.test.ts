@@ -50,6 +50,7 @@ import replaceLast from "./string/replaceLast";
 import swapCase from "./string/swapCase";
 import toTitleCase from "./string/toTitleCase";
 import toCamelCase from "./string/toCamelCase";
+import toPascalCase from "./string/toPascalCase";
 import mapString from "./string/mapString";
 
 describe("string:", () => {
@@ -156,6 +157,8 @@ describe("string:", () => {
   describe("toTitleCase", toTitleCase);
 
   describe("toCamelCase", toCamelCase);
+
+  describe("toPascalCase", toPascalCase);
 
   describe("mapString", mapString);
 });
