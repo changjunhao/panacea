@@ -10,6 +10,7 @@
  * // {name: 'Adam', surname: 'Smith'}
  * ```
  * @since 0.1.6
+ * @deprecated since 0.1.8 - Use `import { getURLParameters } from panacea-core`.
  * @category BOM
  */
 const getURLParameters = (url: string) =>

@@ -40,6 +40,7 @@ module.exports = {
     "/src/dom/copyToClipboard.ts",
     "/src/dom/prefix.ts",
     "/src/bom/runAsync.ts",
+    "/src/bom/getURLParameters.ts",
   ],
 
   // Indicates which provider should be used to instrument code for coverage
