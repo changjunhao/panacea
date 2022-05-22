@@ -74,6 +74,7 @@ export { default as countSubstrings } from "./string/countSubstrings";
 export { default as replaceLast } from "./string/replaceLast";
 export { default as swapCase } from "./string/swapCase";
 export { default as toTitleCase } from "./string/toTitleCase";
+export { default as mapString } from "./string/mapString";
 
 export { default as coalesceFactory } from "./function/coalesceFactory";
 export { default as when } from "./function/when";
