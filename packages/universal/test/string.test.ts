@@ -49,6 +49,7 @@ import countSubstrings from "./string/countSubstrings";
 import replaceLast from "./string/replaceLast";
 import swapCase from "./string/swapCase";
 import toTitleCase from "./string/toTitleCase";
+import toCamelCase from "./string/toCamelCase";
 import mapString from "./string/mapString";
 
 describe("string:", () => {
@@ -153,6 +154,8 @@ describe("string:", () => {
   describe("swapCase", swapCase);
 
   describe("toTitleCase", toTitleCase);
+
+  describe("toCamelCase", toCamelCase);
 
   describe("mapString", mapString);
 });
