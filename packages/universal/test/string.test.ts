@@ -48,6 +48,7 @@ import indexOfSubstrings from "./string/indexOfSubstrings";
 import countSubstrings from "./string/countSubstrings";
 import replaceLast from "./string/replaceLast";
 import swapCase from "./string/swapCase";
+import toTitleCase from "./string/toTitleCase";
 
 describe("string:", () => {
   describe("mask", mask);
@@ -149,4 +150,6 @@ describe("string:", () => {
   describe("replaceLast", replaceLast);
 
   describe("swapCase", swapCase);
+
+  describe("toTitleCase", toTitleCase);
 });
