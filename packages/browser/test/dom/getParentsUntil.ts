@@ -10,5 +10,6 @@ export default () => {
     document.body.appendChild(div);
     expect(getParentsUntil(span, "body")).toEqual([document.body, div, p]);
     document.body.removeChild(div);
+    expect(getParentsUntil(document.body, "body")).toEqual([]);
   });
 };
